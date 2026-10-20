@@ -17,7 +17,7 @@ from PySide6.QtGui import (QColor, QFont, QIcon, QLinearGradient, QPainter, QPai
 from PySide6.QtWidgets import (QApplication, QFileIconProvider, QFrame, QHBoxLayout, QLabel,
                                QSystemTrayIcon, QVBoxLayout, QWidget)
 from PySide6.QtCore import QFileInfo
-from qfluentwidgets import (Action, BodyLabel, CaptionLabel, ComboBox, ExpandLayout, FluentIcon as FIF,
+from qfluentwidgets import (Action, BodyLabel, CaptionLabel, ComboBox, ExpandLayout, FluentIcon as FIF, IconWidget,
                             FluentWindow, IndeterminateProgressRing, InfoBar, InfoBarPosition,
                             NavigationItemPosition, PlainTextEdit, PrimaryPushButton, ProgressBar, PushButton,
                             ScrollArea, SegmentedWidget, SettingCard, SettingCardGroup, SimpleCardWidget, Slider,
@@ -77,6 +77,10 @@ def load_config():
             saved["nivel"] = {"minimo": "cpu_turbo", "leve": "cpu_leve", "equilibrado": "gpu_equilibrado",
                               "maximo": "gpu_preciso"}.get(old, D.heuristic_choice(vram)["key"])
         cfg.update(saved)
+        if cfg.get("modo") not in ("auto", "barra", "avancado"):  # config corrompida por versao anterior
+            cfg["modo"] = "auto"
+        if cfg.get("nivel") not in D.LEVEL_KEYS:
+            cfg["nivel"] = D.heuristic_choice(vram)["key"]
     except Exception:
         # Primeira vez: modo automatico, comecando por uma estimativa pela memoria de video
         # (o teste do PC refina a escolha logo em seguida).
@@ -178,6 +182,28 @@ def ensure_ico():
 
 
 # ---------------------------------------------------------------- widgets proprios
+
+class IconLabel(QWidget):
+    """Icone Fluent + texto curto (no lugar de emojis/simbolos)."""
+
+    def __init__(self, icon, text, parent=None, color=None, size=14):
+        super().__init__(parent)
+        h = QHBoxLayout(self)
+        h.setContentsMargins(0, 0, 0, 0)
+        h.setSpacing(6)
+        self.icon = IconWidget(self)
+        self.icon.setFixedSize(size, size)
+        self.label = CaptionLabel("", self)
+        h.addWidget(self.icon)
+        h.addWidget(self.label)
+        self.set(icon, text, color)
+
+    def set(self, icon, text, color=None):
+        self.icon.setIcon(icon.icon(color=QColor(color)) if color else icon)
+        self.label.setText(text)
+        self.label.setStyleSheet(f"color: {color};" if color else "")
+        self.setVisible(bool(text))
+
 
 class HeroBanner(QWidget):
     """Faixa com gradiente da marca no topo da tela inicial."""
@@ -390,7 +416,7 @@ class HomePage(Page):
         row.addWidget(self.combo, 1)
         row.addWidget(self.refresh_btn)
         pl.addLayout(row)
-        self.audio_hint = CaptionLabel("", prog)
+        self.audio_hint = IconLabel(FIF.INFO, "", prog)
         pl.addWidget(self.audio_hint)
         lay.addWidget(prog)
 
@@ -468,7 +494,7 @@ class HomePage(Page):
         provider = QFileIconProvider()
         for p in self.programs:
             icon = provider.icon(QFileInfo(p["path"])) if p["path"] else FIF.APPLICATION.icon()
-            label = p["name"] + ("   🔊" if p["playing"] else "")
+            label = p["name"] + ("  ·  tocando som" if p["playing"] else "")
             self.combo.addItem(label, icon, p["exe"])
         idx = next(i for i, p in enumerate(self.programs) if p["exe"] == current)
         self.combo.setCurrentIndex(idx)
@@ -488,11 +514,11 @@ class HomePage(Page):
         exe = self.win.cfg["programa"].lower() + ".exe"
         running = any((p.info["name"] or "").lower() == exe for p in psutil.process_iter(["name"]))
         if not running:
-            self.audio_hint.setText("○  Esse programa não está aberto — as legendas começam quando ele abrir.")
+            self.audio_hint.set(FIF.INFO, "Esse programa não está aberto — as legendas começam quando ele abrir.", "gray")
         elif exe in playing_audio():
-            self.audio_hint.setText("●  Tocando som agora")
+            self.audio_hint.set(FIF.VOLUME, "Tocando som agora", "#22C55E")
         else:
-            self.audio_hint.setText("○  Aberto, sem som no momento")
+            self.audio_hint.set(FIF.MUTE, "Aberto, sem som no momento", "gray")
 
     # estado
     def refresh_setup(self, st):
@@ -568,9 +594,10 @@ class PerformanceCard(SimpleCardWidget):
 
     MODES = [("auto", "Automático"), ("barra", "Manual"), ("avancado", "Avançado")]
     DESC = {
-        "auto": "O Legendaí testa este PC e usa o nível mais preciso que ainda responde rápido.",
+        "auto": "O Legendaí testa este PC e usa o nível mais preciso que ainda responde rápido. "
+                "Se arrastar a barra, você passa a escolher (modo Manual).",
         "barra": "Arraste para escolher entre velocidade e precisão. Só aparecem os níveis que cabem neste PC.",
-        "avancado": "Você ajusta cada parte em “Inteligência”, logo abaixo.",
+        "avancado": "Você ajusta cada parte em “Inteligência”, logo abaixo. Arrastar a barra volta para um nível pronto.",
     }
 
     def __init__(self, page):
@@ -590,7 +617,7 @@ class PerformanceCard(SimpleCardWidget):
         top.addStretch(1)
         self.seg = SegmentedWidget(self)
         for key, text in self.MODES:
-            self.seg.addItem(key, text, onClick=lambda k=key: self.page.set_mode(k))
+            self.seg.addItem(key, text, onClick=lambda *_, k=key: self.page.set_mode(k))
         top.addWidget(self.seg)
         v.addLayout(top)
         self.desc = CaptionLabel("", self)
@@ -599,12 +626,14 @@ class PerformanceCard(SimpleCardWidget):
         v.addSpacing(6)
 
         row = QHBoxLayout()
-        row.addWidget(CaptionLabel("⚡  Mais rápido", self))
+        row.addWidget(IconLabel(FIF.SPEED_HIGH, "Mais rápido", self))
+        row.addSpacing(6)
         self.slider = Slider(Qt.Horizontal, self)
         self.slider.setPageStep(1)
         self.slider.valueChanged.connect(lambda i: self.page.set_level(self.levels[i]["key"]))
         row.addWidget(self.slider, 1)
-        row.addWidget(CaptionLabel("Mais preciso  🎯", self))
+        row.addSpacing(6)
+        row.addWidget(IconLabel(FIF.CERTIFICATE, "Mais preciso", self))
         v.addLayout(row)
 
         self.level_name = SubtitleLabel("", self)
@@ -642,7 +671,7 @@ class PerformanceCard(SimpleCardWidget):
         self.slider.setRange(0, len(self.levels) - 1)
         self.slider.setValue(keys.index(cfg["nivel"]) if cfg["nivel"] in keys else 0)
         self.slider.blockSignals(False)
-        self.slider.setEnabled(mode == "barra" and len(self.levels) > 1)
+        self.slider.setEnabled(len(self.levels) > 1)
 
         if mode == "avancado":
             self.level_name.setText("Configuração personalizada")
@@ -818,6 +847,10 @@ class SettingsPage(Page):
 
     def set_level(self, key):
         cfg = self.win.cfg
+        if cfg["modo"] != "barra":  # arrastar a barra = a pessoa quer escolher o nivel
+            cfg["modo"] = "barra"
+            InfoBar.info("Modo Manual", "Você escolheu o nível pela barra.", duration=2500,
+                         position=InfoBarPosition.TOP_RIGHT, parent=self.win)
         cfg["nivel"] = key
         cfg.update(D.level(key)["cfg"])
         self.refresh_performance()
@@ -866,7 +899,7 @@ class ModuleRow(SimpleCardWidget):
         top = QHBoxLayout()
         top.setSpacing(8)
         top.addWidget(StrongBodyLabel(mod["nome"], self))
-        self.badge = CaptionLabel("", self)
+        self.badge = IconLabel(FIF.ACCEPT_MEDIUM, "", self)
         top.addWidget(self.badge)
         top.addStretch(1)
         txt.addLayout(top)
@@ -883,14 +916,12 @@ class ModuleRow(SimpleCardWidget):
     def refresh(self, installed, recommended, busy):
         mid = self.mod["id"]
         if installed:
-            self.badge.setText("✓ Instalado")
-            self.badge.setStyleSheet("color: #22C55E;")
+            self.badge.set(FIF.ACCEPT_MEDIUM, "Instalado", "#22C55E")
             self.btn.setText("Remover")
             self.btn.setIcon(FIF.DELETE)
             self.btn.setEnabled(not busy and self.mod.get("removivel", True))
         else:
-            self.badge.setText("★ Recomendado para este PC" if mid in recommended else "")
-            self.badge.setStyleSheet(f"color: {ACCENT};")
+            self.badge.set(FIF.TAG, "Recomendado para este PC" if mid in recommended else "", ACCENT)
             self.btn.setText("Instalar")
             self.btn.setIcon(FIF.DOWNLOAD)
             self.btn.setEnabled(not busy)
@@ -998,10 +1029,12 @@ class ModulesPage(Page):
             names = ", ".join(modulos.BY_ID[m]["nome"] for m in missing)
             self.full_info.setText(f"Para este PC ({gpu}): {names}.")
             self.full_btn.setText(f"Instalar tudo  ({fmt_size(mb)})")
+            self.full_btn.setIcon(FIF.DOWNLOAD)
             self.full_btn.setEnabled(not busy)
         else:
             self.full_info.setText(f"Tudo o que é recomendado para este PC ({gpu}) já está instalado.")
-            self.full_btn.setText("Tudo instalado ✓")
+            self.full_btn.setText("Tudo instalado")
+            self.full_btn.setIcon(FIF.ACCEPT)
             self.full_btn.setEnabled(False)
         free = shutil.disk_usage(BASE).free / 2 ** 30
         self.disk.setText(f"Espaço livre no disco: {free:.0f} GB".replace(".", ","))
@@ -1216,6 +1249,15 @@ class MainWindow(FluentWindow):
                 self.test_result = msg["resultado"]
 
     def _test_done(self, *_):
+        try:
+            self._apply_test()
+        except Exception as e:  # nunca deixa a tela presa em "Testando..."
+            self.log.append(f"[teste] erro ao aplicar o resultado: {e!r}")
+            self.settings.perf.progress.hide()
+            self.settings.perf.test_btn.setEnabled(True)
+            self.settings.perf.test_info.setText("Não deu para aplicar o resultado do teste (veja Registro).")
+
+    def _apply_test(self):
         if not self.test_result:
             InfoBar.error("O teste do PC falhou", "Veja a aba Registro. Mantive a configuração atual.",
                           duration=5000, position=InfoBarPosition.TOP_RIGHT, parent=self)
