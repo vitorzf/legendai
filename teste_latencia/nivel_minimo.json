@@ -1,0 +1,164 @@
+{
+ "resultado": [
+  {
+   "frase": "Hey, are you coming to the party tonight?",
+   "fala_s": 3.57,
+   "primeiro_texto_apos_inicio": 4.38,
+   "final_apos_fim_da_fala": 0.81,
+   "parciais": 0,
+   "finais": 1
+  },
+  {
+   "frase": "I don't know, I still have a lot of work to fini",
+   "fala_s": 6.06,
+   "primeiro_texto_apos_inicio": 7.07,
+   "final_apos_fim_da_fala": 1.0,
+   "parciais": 0,
+   "finais": 1
+  },
+  {
+   "frase": "Look, I talked to your brother yesterday and he ",
+   "fala_s": 13.52,
+   "primeiro_texto_apos_inicio": 7.65,
+   "final_apos_fim_da_fala": 0.82,
+   "parciais": 0,
+   "finais": 2
+  },
+  {
+   "frase": "Fine. Let's go.",
+   "fala_s": 2.67,
+   "primeiro_texto_apos_inicio": null,
+   "final_apos_fim_da_fala": null,
+   "parciais": 0,
+   "finais": 0
+  },
+  {
+   "frase": "Where did you put the keys? They were right here",
+   "fala_s": 6.67,
+   "primeiro_texto_apos_inicio": 3.27,
+   "final_apos_fim_da_fala": 0.84,
+   "parciais": 0,
+   "finais": 2
+  },
+  {
+   "frase": "You never listen to me, that's the problem.",
+   "fala_s": 3.76,
+   "primeiro_texto_apos_inicio": 4.56,
+   "final_apos_fim_da_fala": 18.04,
+   "parciais": 0,
+   "finais": 2
+  },
+  {
+   "frase": "Okay, okay, I'm sorry, I will call the mechanic ",
+   "fala_s": 11.31,
+   "primeiro_texto_apos_inicio": 7.63,
+   "final_apos_fim_da_fala": 0.84,
+   "parciais": 0,
+   "finais": 2
+  },
+  {
+   "frase": "Thank you. That's all I wanted to hear.",
+   "fala_s": 4.27,
+   "primeiro_texto_apos_inicio": null,
+   "final_apos_fim_da_fala": null,
+   "parciais": 0,
+   "finais": 0
+  }
+ ],
+ "acerto_palavras_en": 0.708,
+ "cpu_medio": 10.2,
+ "finais_pt": [
+  "Vens à festa esta noite?",
+  "Ele não sabe. Têm muitos de vocês aqui até ao fim antes de amanhã de manhã.",
+  "Ele falou com o teu irmão ontem e disse que o carro ainda está avariado.",
+  "Mas sabes quando vai ser consertado, por isso vais ter de voltar a beber na próxima semana.",
+  "Finalmente.",
+  "Com o Joe.",
+  "Onde é que puseste a mala?",
+  "A cabeça direita na mesa você também há um minuto atrás.",
+  "Nunca me ouviste, esse é o problema.",
+  "Ok, ok, desculpa. Chamas primeiro o mecânico a colocar uma maru só nele.",
+  "Quanto vai custar ao acidista Jimmy? Está bem.",
+  "Isso é tudo para ti e para o público."
+ ],
+ "eventos": [
+  {
+   "t": 5.375,
+   "kind": "final",
+   "pt": "Vens à festa esta noite?",
+   "en": "Hey, are you coming to the party tonight?"
+  },
+  {
+   "t": 12.436999999976251,
+   "kind": "final",
+   "pt": "Ele não sabe. Têm muitos de vocês aqui até ao fim antes de amanhã de manhã.",
+   "en": "He don't know, is you have a lot of you here till finish before tomorrow morning."
+  },
+  {
+   "t": 19.78100000001723,
+   "kind": "final",
+   "pt": "Ele falou com o teu irmão ontem e disse que o carro ainda está avariado.",
+   "en": "Looky, he talked to your brother yesterday, and he said that the car is still broken."
+  },
+  {
+   "t": 26.46799999999348,
+   "kind": "final",
+   "pt": "Mas sabes quando vai ser consertado, por isso vais ter de voltar a beber na próxima semana.",
+   "en": "But you know when it will be fixed so you'll probably have to take the booze again next week."
+  },
+  {
+   "t": 28.35899999999674,
+   "kind": "final",
+   "pt": "Finalmente.",
+   "en": "Finally."
+  },
+  {
+   "t": 30.06199999997625,
+   "kind": "final",
+   "pt": "Com o Joe.",
+   "en": "With Joe."
+  },
+  {
+   "t": 33.39000000001397,
+   "kind": "final",
+   "pt": "Onde é que puseste a mala?",
+   "en": "Where did you put the case?"
+  },
+  {
+   "t": 37.64000000001397,
+   "kind": "final",
+   "pt": "A cabeça direita na mesa você também há um minuto atrás.",
+   "en": "The right head on the table you a minute ago too."
+  },
+  {
+   "t": 42.35899999999674,
+   "kind": "final",
+   "pt": "Nunca me ouviste, esse é o problema.",
+   "en": "You never listened to me, that's the problem."
+  },
+  {
+   "t": 49.89000000001397,
+   "kind": "final",
+   "pt": "Ok, ok, desculpa. Chamas primeiro o mecânico a colocar uma maru só nele.",
+   "en": "Okay, okay, I'm sorry. You call the mechanic first fit a maru in just him."
+  },
+  {
+   "t": 54.40600000001723,
+   "kind": "final",
+   "pt": "Quanto vai custar ao acidista Jimmy? Está bem.",
+   "en": "How much it is going to cost to acidist Jimmy? Alright."
+  },
+  {
+   "t": 56.46799999999348,
+   "kind": "cancel",
+   "pt": "",
+   "en": ""
+  },
+  {
+   "t": 59.59299999999348,
+   "kind": "final",
+   "pt": "Isso é tudo para ti e para o público.",
+   "en": "That's all you and to the audience."
+  }
+ ]
+}

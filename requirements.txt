@@ -1,0 +1,7 @@
+faster-whisper
+sentencepiece
+psutil
+numpy
+PySide6-Fluent-Widgets
+pycaw
+pywin32

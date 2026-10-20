@@ -1,0 +1,20 @@
+# ambiente e caches
+.venv/
+__pycache__/
+*.pyc
+
+# modulos baixados / compilados (vem dos Releases e do Hugging Face)
+models/
+bin/
+downloads/
+*.exe
+*.part
+
+# saidas do build do instalador
+instalador/build/
+instalador/dist/
+instalador/cache/
+
+# configuracao pessoal e atalhos
+config.json
+*.lnk

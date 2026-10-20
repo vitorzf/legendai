@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#8B5CF6"/>
+      <stop offset="1" stop-color="#06B6D4"/>
+    </linearGradient>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#7C3AED"/>
+      <stop offset="1" stop-color="#0891B2"/>
+    </linearGradient>
+  </defs>
+  <rect x="8" y="8" width="240" height="240" rx="60" fill="url(#bg)"/>
+  <!-- balao de fala -->
+  <path d="M64 60h128a28 28 0 0 1 28 28v60a28 28 0 0 1-28 28h-62l-38 32v-32H64a28 28 0 0 1-28-28V88a28 28 0 0 1 28-28z" fill="#FFFFFF"/>
+  <!-- linhas de legenda -->
+  <rect x="68" y="98" width="120" height="16" rx="8" fill="url(#line)"/>
+  <rect x="92" y="126" width="72" height="16" rx="8" fill="url(#line)" opacity=".55"/>
+</svg>

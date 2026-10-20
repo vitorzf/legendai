@@ -1,0 +1,1142 @@
+{
+ "resultado": [
+  {
+   "frase": "Hey, are you coming to the party tonight?",
+   "fala_s": 3.57,
+   "primeiro_texto_apos_inicio": 4.55,
+   "final_apos_fim_da_fala": 1.42,
+   "parciais": 11,
+   "finais": 1
+  },
+  {
+   "frase": "I don't know, I still have a lot of work to fini",
+   "fala_s": 6.06,
+   "primeiro_texto_apos_inicio": 7.07,
+   "final_apos_fim_da_fala": 1.76,
+   "parciais": 20,
+   "finais": 1
+  },
+  {
+   "frase": "Look, I talked to your brother yesterday and he ",
+   "fala_s": 13.52,
+   "primeiro_texto_apos_inicio": 7.73,
+   "final_apos_fim_da_fala": 1.86,
+   "parciais": 44,
+   "finais": 2
+  },
+  {
+   "frase": "Fine. Let's go.",
+   "fala_s": 2.67,
+   "primeiro_texto_apos_inicio": null,
+   "final_apos_fim_da_fala": null,
+   "parciais": 0,
+   "finais": 0
+  },
+  {
+   "frase": "Where did you put the keys? They were right here",
+   "fala_s": 6.67,
+   "primeiro_texto_apos_inicio": 3.31,
+   "final_apos_fim_da_fala": 1.53,
+   "parciais": 23,
+   "finais": 2
+  },
+  {
+   "frase": "You never listen to me, that's the problem.",
+   "fala_s": 3.76,
+   "primeiro_texto_apos_inicio": 4.74,
+   "final_apos_fim_da_fala": 18.49,
+   "parciais": 21,
+   "finais": 2
+  },
+  {
+   "frase": "Okay, okay, I'm sorry, I will call the mechanic ",
+   "fala_s": 11.31,
+   "primeiro_texto_apos_inicio": 7.74,
+   "final_apos_fim_da_fala": 1.42,
+   "parciais": 39,
+   "finais": 2
+  },
+  {
+   "frase": "Thank you. That's all I wanted to hear.",
+   "fala_s": 4.27,
+   "primeiro_texto_apos_inicio": null,
+   "final_apos_fim_da_fala": null,
+   "parciais": 0,
+   "finais": 0
+  }
+ ],
+ "acerto_palavras_en": 0.691,
+ "cpu_medio": 15.0,
+ "finais_pt": [
+  "E aí, você vai à festa hoje à noite?",
+  "Ele não sabe, você tem muita gente aqui até o final da noite antes de amanhã?",
+  "Olha, ele falou com todo seu irmão ontem, e ele disse que o carro ainda está quebrado.",
+  "Mas você sabe quando vai ser consertado, então você provavelmente vai beber de novo na semana que vem.",
+  "Finalmente.",
+  "Com Joe.",
+  "Onde você colocou o caso?",
+  "A média de impacto na mesa, que você já tinha um minuto atrás.",
+  "Você nunca me ouviu, essa é a questão.",
+  "Ok, ok, desculpa. Você chama o mecânico se o primeiro carro que ele viu for um Maru? Como...",
+  "Vai custar uma fortuna para acidist chimi, tá?",
+  "É só isso que você e para o público."
+ ],
+ "eventos": [
+  {
+   "t": 5.547000000020489,
+   "kind": "partial",
+   "pt": "E",
+   "en": "Hey, are you coming to the party tonight?"
+  },
+  {
+   "t": 5.5939999999827705,
+   "kind": "partial",
+   "pt": "E aí",
+   "en": "Hey, are you coming to the party tonight?"
+  },
+  {
+   "t": 5.625,
+   "kind": "partial",
+   "pt": "E aí,",
+   "en": "Hey, are you coming to the party tonight?"
+  },
+  {
+   "t": 5.672000000020489,
+   "kind": "partial",
+   "pt": "E aí, você",
+   "en": "Hey, are you coming to the party tonight?"
+  },
+  {
+   "t": 5.7189999999827705,
+   "kind": "partial",
+   "pt": "E aí, você vai",
+   "en": "Hey, are you coming to the party tonight?"
+  },
+  {
+   "t": 5.76600000000326,
+   "kind": "partial",
+   "pt": "E aí, você vai à",
+   "en": "Hey, are you coming to the party tonight?"
+  },
+  {
+   "t": 5.797000000020489,
+   "kind": "partial",
+   "pt": "E aí, você vai à festa",
+   "en": "Hey, are you coming to the party tonight?"
+  },
+  {
+   "t": 5.827999999979511,
+   "kind": "partial",
+   "pt": "E aí, você vai à festa hoje",
+   "en": "Hey, are you coming to the party tonight?"
+  },
+  {
+   "t": 5.875,
+   "kind": "partial",
+   "pt": "E aí, você vai à festa hoje à",
+   "en": "Hey, are you coming to the party tonight?"
+  },
+  {
+   "t": 5.907000000006519,
+   "kind": "partial",
+   "pt": "E aí, você vai à festa hoje à noite",
+   "en": "Hey, are you coming to the party tonight?"
+  },
+  {
+   "t": 5.952999999979511,
+   "kind": "partial",
+   "pt": "E aí, você vai à festa hoje à noite?",
+   "en": "Hey, are you coming to the party tonight?"
+  },
+  {
+   "t": 5.98499999998603,
+   "kind": "final",
+   "pt": "E aí, você vai à festa hoje à noite?",
+   "en": "Hey, are you coming to the party tonight?"
+  },
+  {
+   "t": 12.438000000023749,
+   "kind": "partial",
+   "pt": "Ele",
+   "en": "He don't know, is you have a lot of you here till finish before tomorrow morning."
+  },
+  {
+   "t": 12.46899999998277,
+   "kind": "partial",
+   "pt": "Ele não",
+   "en": "He don't know, is you have a lot of you here till finish before tomorrow morning."
+  },
+  {
+   "t": 12.51600000000326,
+   "kind": "partial",
+   "pt": "Ele não sabe",
+   "en": "He don't know, is you have a lot of you here till finish before tomorrow morning."
+  },
+  {
+   "t": 12.547000000020489,
+   "kind": "partial",
+   "pt": "Ele não sabe,",
+   "en": "He don't know, is you have a lot of you here till finish before tomorrow morning."
+  },
+  {
+   "t": 12.59399999998277,
+   "kind": "partial",
+   "pt": "Ele não sabe, você",
+   "en": "He don't know, is you have a lot of you here till finish before tomorrow morning."
+  },
+  {
+   "t": 12.625,
+   "kind": "partial",
+   "pt": "Ele não sabe, você tem",
+   "en": "He don't know, is you have a lot of you here till finish before tomorrow morning."
+  },
+  {
+   "t": 12.672000000020489,
+   "kind": "partial",
+   "pt": "Ele não sabe, você tem muita",
+   "en": "He don't know, is you have a lot of you here till finish before tomorrow morning."
+  },
+  {
+   "t": 12.702999999979511,
+   "kind": "partial",
+   "pt": "Ele não sabe, você tem muita gente",
+   "en": "He don't know, is you have a lot of you here till finish before tomorrow morning."
+  },
+  {
+   "t": 12.75,
+   "kind": "partial",
+   "pt": "Ele não sabe, você tem muita gente aqui",
+   "en": "He don't know, is you have a lot of you here till finish before tomorrow morning."
+  },
+  {
+   "t": 12.78200000000652,
+   "kind": "partial",
+   "pt": "Ele não sabe, você tem muita gente aqui até",
+   "en": "He don't know, is you have a lot of you here till finish before tomorrow morning."
+  },
+  {
+   "t": 12.813000000023749,
+   "kind": "partial",
+   "pt": "Ele não sabe, você tem muita gente aqui até o",
+   "en": "He don't know, is you have a lot of you here till finish before tomorrow morning."
+  },
+  {
+   "t": 12.85999999998603,
+   "kind": "partial",
+   "pt": "Ele não sabe, você tem muita gente aqui até o final",
+   "en": "He don't know, is you have a lot of you here till finish before tomorrow morning."
+  },
+  {
+   "t": 12.89100000000326,
+   "kind": "partial",
+   "pt": "Ele não sabe, você tem muita gente aqui até o final da",
+   "en": "He don't know, is you have a lot of you here till finish before tomorrow morning."
+  },
+  {
+   "t": 12.922000000020489,
+   "kind": "partial",
+   "pt": "Ele não sabe, você tem muita gente aqui até o final da noite",
+   "en": "He don't know, is you have a lot of you here till finish before tomorrow morning."
+  },
+  {
+   "t": 12.96899999998277,
+   "kind": "partial",
+   "pt": "Ele não sabe, você tem muita gente aqui até o final da noite antes",
+   "en": "He don't know, is you have a lot of you here till finish before tomorrow morning."
+  },
+  {
+   "t": 13.0,
+   "kind": "partial",
+   "pt": "Ele não sabe, você tem muita gente aqui até o final da noite antes de",
+   "en": "He don't know, is you have a lot of you here till finish before tomorrow morning."
+  },
+  {
+   "t": 13.047000000020489,
+   "kind": "partial",
+   "pt": "Ele não sabe, você tem muita gente aqui até o final da noite antes de am",
+   "en": "He don't know, is you have a lot of you here till finish before tomorrow morning."
+  },
+  {
+   "t": 13.077999999979511,
+   "kind": "partial",
+   "pt": "Ele não sabe, você tem muita gente aqui até o final da noite antes de amanh",
+   "en": "He don't know, is you have a lot of you here till finish before tomorrow morning."
+  },
+  {
+   "t": 13.10999999998603,
+   "kind": "partial",
+   "pt": "Ele não sabe, você tem muita gente aqui até o final da noite antes de amanhã",
+   "en": "He don't know, is you have a lot of you here till finish before tomorrow morning."
+  },
+  {
+   "t": 13.15700000000652,
+   "kind": "partial",
+   "pt": "Ele não sabe, você tem muita gente aqui até o final da noite antes de amanhã?",
+   "en": "He don't know, is you have a lot of you here till finish before tomorrow morning."
+  },
+  {
+   "t": 13.188000000023749,
+   "kind": "final",
+   "pt": "Ele não sabe, você tem muita gente aqui até o final da noite antes de amanhã?",
+   "en": "He don't know, is you have a lot of you here till finish before tomorrow morning."
+  },
+  {
+   "t": 19.85999999998603,
+   "kind": "partial",
+   "pt": "Ol",
+   "en": "Looky, he talked to all your brother yesterday, and he said that the car is still broken."
+  },
+  {
+   "t": 19.89100000000326,
+   "kind": "partial",
+   "pt": "Olha",
+   "en": "Looky, he talked to all your brother yesterday, and he said that the car is still broken."
+  },
+  {
+   "t": 19.93800000002375,
+   "kind": "partial",
+   "pt": "Olha,",
+   "en": "Looky, he talked to all your brother yesterday, and he said that the car is still broken."
+  },
+  {
+   "t": 19.96899999998277,
+   "kind": "partial",
+   "pt": "Olha, ele",
+   "en": "Looky, he talked to all your brother yesterday, and he said that the car is still broken."
+  },
+  {
+   "t": 20.0,
+   "kind": "partial",
+   "pt": "Olha, ele falou",
+   "en": "Looky, he talked to all your brother yesterday, and he said that the car is still broken."
+  },
+  {
+   "t": 20.04700000002049,
+   "kind": "partial",
+   "pt": "Olha, ele falou com",
+   "en": "Looky, he talked to all your brother yesterday, and he said that the car is still broken."
+  },
+  {
+   "t": 20.07799999997951,
+   "kind": "partial",
+   "pt": "Olha, ele falou com todo",
+   "en": "Looky, he talked to all your brother yesterday, and he said that the car is still broken."
+  },
+  {
+   "t": 20.10999999998603,
+   "kind": "partial",
+   "pt": "Olha, ele falou com todo seu",
+   "en": "Looky, he talked to all your brother yesterday, and he said that the car is still broken."
+  },
+  {
+   "t": 20.15700000000652,
+   "kind": "partial",
+   "pt": "Olha, ele falou com todo seu irmão",
+   "en": "Looky, he talked to all your brother yesterday, and he said that the car is still broken."
+  },
+  {
+   "t": 20.18800000002375,
+   "kind": "partial",
+   "pt": "Olha, ele falou com todo seu irmão ontem",
+   "en": "Looky, he talked to all your brother yesterday, and he said that the car is still broken."
+  },
+  {
+   "t": 20.25,
+   "kind": "partial",
+   "pt": "Olha, ele falou com todo seu irmão ontem,",
+   "en": "Looky, he talked to all your brother yesterday, and he said that the car is still broken."
+  },
+  {
+   "t": 20.29700000002049,
+   "kind": "partial",
+   "pt": "Olha, ele falou com todo seu irmão ontem, e",
+   "en": "Looky, he talked to all your brother yesterday, and he said that the car is still broken."
+  },
+  {
+   "t": 20.34399999998277,
+   "kind": "partial",
+   "pt": "Olha, ele falou com todo seu irmão ontem, e ele",
+   "en": "Looky, he talked to all your brother yesterday, and he said that the car is still broken."
+  },
+  {
+   "t": 20.375,
+   "kind": "partial",
+   "pt": "Olha, ele falou com todo seu irmão ontem, e ele disse",
+   "en": "Looky, he talked to all your brother yesterday, and he said that the car is still broken."
+  },
+  {
+   "t": 20.40700000000652,
+   "kind": "partial",
+   "pt": "Olha, ele falou com todo seu irmão ontem, e ele disse que",
+   "en": "Looky, he talked to all your brother yesterday, and he said that the car is still broken."
+  },
+  {
+   "t": 20.45299999997951,
+   "kind": "partial",
+   "pt": "Olha, ele falou com todo seu irmão ontem, e ele disse que o",
+   "en": "Looky, he talked to all your brother yesterday, and he said that the car is still broken."
+  },
+  {
+   "t": 20.48499999998603,
+   "kind": "partial",
+   "pt": "Olha, ele falou com todo seu irmão ontem, e ele disse que o carro",
+   "en": "Looky, he talked to all your brother yesterday, and he said that the car is still broken."
+  },
+  {
+   "t": 20.53200000000652,
+   "kind": "partial",
+   "pt": "Olha, ele falou com todo seu irmão ontem, e ele disse que o carro ainda",
+   "en": "Looky, he talked to all your brother yesterday, and he said that the car is still broken."
+  },
+  {
+   "t": 20.56300000002375,
+   "kind": "partial",
+   "pt": "Olha, ele falou com todo seu irmão ontem, e ele disse que o carro ainda está",
+   "en": "Looky, he talked to all your brother yesterday, and he said that the car is still broken."
+  },
+  {
+   "t": 20.59399999998277,
+   "kind": "partial",
+   "pt": "Olha, ele falou com todo seu irmão ontem, e ele disse que o carro ainda está que",
+   "en": "Looky, he talked to all your brother yesterday, and he said that the car is still broken."
+  },
+  {
+   "t": 20.64100000000326,
+   "kind": "partial",
+   "pt": "Olha, ele falou com todo seu irmão ontem, e ele disse que o carro ainda está quebrado",
+   "en": "Looky, he talked to all your brother yesterday, and he said that the car is still broken."
+  },
+  {
+   "t": 20.67200000002049,
+   "kind": "partial",
+   "pt": "Olha, ele falou com todo seu irmão ontem, e ele disse que o carro ainda está quebrado.",
+   "en": "Looky, he talked to all your brother yesterday, and he said that the car is still broken."
+  },
+  {
+   "t": 20.70299999997951,
+   "kind": "final",
+   "pt": "Olha, ele falou com todo seu irmão ontem, e ele disse que o carro ainda está quebrado.",
+   "en": "Looky, he talked to all your brother yesterday, and he said that the car is still broken."
+  },
+  {
+   "t": 26.67200000002049,
+   "kind": "partial",
+   "pt": "Mas",
+   "en": "But you know when it will be fixed so you'll probably have to take the booze again next week."
+  },
+  {
+   "t": 26.70299999997951,
+   "kind": "partial",
+   "pt": "Mas você",
+   "en": "But you know when it will be fixed so you'll probably have to take the booze again next week."
+  },
+  {
+   "t": 26.75,
+   "kind": "partial",
+   "pt": "Mas você sabe",
+   "en": "But you know when it will be fixed so you'll probably have to take the booze again next week."
+  },
+  {
+   "t": 26.78200000000652,
+   "kind": "partial",
+   "pt": "Mas você sabe quando",
+   "en": "But you know when it will be fixed so you'll probably have to take the booze again next week."
+  },
+  {
+   "t": 26.81300000002375,
+   "kind": "partial",
+   "pt": "Mas você sabe quando vai",
+   "en": "But you know when it will be fixed so you'll probably have to take the booze again next week."
+  },
+  {
+   "t": 26.85999999998603,
+   "kind": "partial",
+   "pt": "Mas você sabe quando vai ser",
+   "en": "But you know when it will be fixed so you'll probably have to take the booze again next week."
+  },
+  {
+   "t": 26.89100000000326,
+   "kind": "partial",
+   "pt": "Mas você sabe quando vai ser cons",
+   "en": "But you know when it will be fixed so you'll probably have to take the booze again next week."
+  },
+  {
+   "t": 26.93800000002375,
+   "kind": "partial",
+   "pt": "Mas você sabe quando vai ser consert",
+   "en": "But you know when it will be fixed so you'll probably have to take the booze again next week."
+  },
+  {
+   "t": 26.96899999998277,
+   "kind": "partial",
+   "pt": "Mas você sabe quando vai ser consertado",
+   "en": "But you know when it will be fixed so you'll probably have to take the booze again next week."
+  },
+  {
+   "t": 27.01600000000326,
+   "kind": "partial",
+   "pt": "Mas você sabe quando vai ser consertado,",
+   "en": "But you know when it will be fixed so you'll probably have to take the booze again next week."
+  },
+  {
+   "t": 27.04700000002049,
+   "kind": "partial",
+   "pt": "Mas você sabe quando vai ser consertado, então",
+   "en": "But you know when it will be fixed so you'll probably have to take the booze again next week."
+  },
+  {
+   "t": 27.07799999997951,
+   "kind": "partial",
+   "pt": "Mas você sabe quando vai ser consertado, então você",
+   "en": "But you know when it will be fixed so you'll probably have to take the booze again next week."
+  },
+  {
+   "t": 27.125,
+   "kind": "partial",
+   "pt": "Mas você sabe quando vai ser consertado, então você provavelmente",
+   "en": "But you know when it will be fixed so you'll probably have to take the booze again next week."
+  },
+  {
+   "t": 27.15700000000652,
+   "kind": "partial",
+   "pt": "Mas você sabe quando vai ser consertado, então você provavelmente vai",
+   "en": "But you know when it will be fixed so you'll probably have to take the booze again next week."
+  },
+  {
+   "t": 27.20299999997951,
+   "kind": "partial",
+   "pt": "Mas você sabe quando vai ser consertado, então você provavelmente vai beber",
+   "en": "But you know when it will be fixed so you'll probably have to take the booze again next week."
+  },
+  {
+   "t": 27.25,
+   "kind": "partial",
+   "pt": "Mas você sabe quando vai ser consertado, então você provavelmente vai beber de",
+   "en": "But you know when it will be fixed so you'll probably have to take the booze again next week."
+  },
+  {
+   "t": 27.28200000000652,
+   "kind": "partial",
+   "pt": "Mas você sabe quando vai ser consertado, então você provavelmente vai beber de novo",
+   "en": "But you know when it will be fixed so you'll probably have to take the booze again next week."
+  },
+  {
+   "t": 27.31300000002375,
+   "kind": "partial",
+   "pt": "Mas você sabe quando vai ser consertado, então você provavelmente vai beber de novo na",
+   "en": "But you know when it will be fixed so you'll probably have to take the booze again next week."
+  },
+  {
+   "t": 27.35999999998603,
+   "kind": "partial",
+   "pt": "Mas você sabe quando vai ser consertado, então você provavelmente vai beber de novo na semana",
+   "en": "But you know when it will be fixed so you'll probably have to take the booze again next week."
+  },
+  {
+   "t": 27.40700000000652,
+   "kind": "partial",
+   "pt": "Mas você sabe quando vai ser consertado, então você provavelmente vai beber de novo na semana que",
+   "en": "But you know when it will be fixed so you'll probably have to take the booze again next week."
+  },
+  {
+   "t": 27.43800000002375,
+   "kind": "partial",
+   "pt": "Mas você sabe quando vai ser consertado, então você provavelmente vai beber de novo na semana que vem",
+   "en": "But you know when it will be fixed so you'll probably have to take the booze again next week."
+  },
+  {
+   "t": 27.48499999998603,
+   "kind": "partial",
+   "pt": "Mas você sabe quando vai ser consertado, então você provavelmente vai beber de novo na semana que vem.",
+   "en": "But you know when it will be fixed so you'll probably have to take the booze again next week."
+  },
+  {
+   "t": 27.51600000000326,
+   "kind": "final",
+   "pt": "Mas você sabe quando vai ser consertado, então você provavelmente vai beber de novo na semana que vem.",
+   "en": "But you know when it will be fixed so you'll probably have to take the booze again next week."
+  },
+  {
+   "t": 28.43800000002375,
+   "kind": "partial",
+   "pt": "Finalmente",
+   "en": "Finally."
+  },
+  {
+   "t": 28.48499999998603,
+   "kind": "partial",
+   "pt": "Finalmente.",
+   "en": "Finally."
+  },
+  {
+   "t": 28.51600000000326,
+   "kind": "final",
+   "pt": "Finalmente.",
+   "en": "Finally."
+  },
+  {
+   "t": 30.15700000000652,
+   "kind": "partial",
+   "pt": "Com",
+   "en": "With Joe."
+  },
+  {
+   "t": 30.18800000002375,
+   "kind": "partial",
+   "pt": "Com Joe",
+   "en": "With Joe."
+  },
+  {
+   "t": 30.23499999998603,
+   "kind": "partial",
+   "pt": "Com Joe.",
+   "en": "With Joe."
+  },
+  {
+   "t": 30.28200000000652,
+   "kind": "final",
+   "pt": "Com Joe.",
+   "en": "With Joe."
+  },
+  {
+   "t": 33.43800000002375,
+   "kind": "partial",
+   "pt": "O",
+   "en": "Where did you put the case?"
+  },
+  {
+   "t": 33.48499999998603,
+   "kind": "partial",
+   "pt": "Onde",
+   "en": "Where did you put the case?"
+  },
+  {
+   "t": 33.53200000000652,
+   "kind": "partial",
+   "pt": "Onde você",
+   "en": "Where did you put the case?"
+  },
+  {
+   "t": 33.56300000002375,
+   "kind": "partial",
+   "pt": "Onde você coloc",
+   "en": "Where did you put the case?"
+  },
+  {
+   "t": 33.625,
+   "kind": "partial",
+   "pt": "Onde você colocou",
+   "en": "Where did you put the case?"
+  },
+  {
+   "t": 33.65700000000652,
+   "kind": "partial",
+   "pt": "Onde você colocou o",
+   "en": "Where did you put the case?"
+  },
+  {
+   "t": 33.70299999997951,
+   "kind": "partial",
+   "pt": "Onde você colocou o caso",
+   "en": "Where did you put the case?"
+  },
+  {
+   "t": 33.75,
+   "kind": "partial",
+   "pt": "Onde você colocou o caso?",
+   "en": "Where did you put the case?"
+  },
+  {
+   "t": 33.79700000002049,
+   "kind": "final",
+   "pt": "Onde você colocou o caso?",
+   "en": "Where did you put the case?"
+  },
+  {
+   "t": 37.68800000002375,
+   "kind": "partial",
+   "pt": "A",
+   "en": "The average hit on the table you a minute ago too."
+  },
+  {
+   "t": 37.73499999998603,
+   "kind": "partial",
+   "pt": "A média",
+   "en": "The average hit on the table you a minute ago too."
+  },
+  {
+   "t": 37.78200000000652,
+   "kind": "partial",
+   "pt": "A média de",
+   "en": "The average hit on the table you a minute ago too."
+  },
+  {
+   "t": 37.82799999997951,
+   "kind": "partial",
+   "pt": "A média de impacto",
+   "en": "The average hit on the table you a minute ago too."
+  },
+  {
+   "t": 37.85999999998603,
+   "kind": "partial",
+   "pt": "A média de impacto na",
+   "en": "The average hit on the table you a minute ago too."
+  },
+  {
+   "t": 37.90700000000652,
+   "kind": "partial",
+   "pt": "A média de impacto na mesa",
+   "en": "The average hit on the table you a minute ago too."
+  },
+  {
+   "t": 37.93800000002375,
+   "kind": "partial",
+   "pt": "A média de impacto na mesa,",
+   "en": "The average hit on the table you a minute ago too."
+  },
+  {
+   "t": 37.98499999998603,
+   "kind": "partial",
+   "pt": "A média de impacto na mesa, que",
+   "en": "The average hit on the table you a minute ago too."
+  },
+  {
+   "t": 38.03200000000652,
+   "kind": "partial",
+   "pt": "A média de impacto na mesa, que você",
+   "en": "The average hit on the table you a minute ago too."
+  },
+  {
+   "t": 38.06300000002375,
+   "kind": "partial",
+   "pt": "A média de impacto na mesa, que você já",
+   "en": "The average hit on the table you a minute ago too."
+  },
+  {
+   "t": 38.10999999998603,
+   "kind": "partial",
+   "pt": "A média de impacto na mesa, que você já tinha",
+   "en": "The average hit on the table you a minute ago too."
+  },
+  {
+   "t": 38.14100000000326,
+   "kind": "partial",
+   "pt": "A média de impacto na mesa, que você já tinha um",
+   "en": "The average hit on the table you a minute ago too."
+  },
+  {
+   "t": 38.18800000002375,
+   "kind": "partial",
+   "pt": "A média de impacto na mesa, que você já tinha um minuto",
+   "en": "The average hit on the table you a minute ago too."
+  },
+  {
+   "t": 38.23499999998603,
+   "kind": "partial",
+   "pt": "A média de impacto na mesa, que você já tinha um minuto atrás",
+   "en": "The average hit on the table you a minute ago too."
+  },
+  {
+   "t": 38.28200000000652,
+   "kind": "partial",
+   "pt": "A média de impacto na mesa, que você já tinha um minuto atrás.",
+   "en": "The average hit on the table you a minute ago too."
+  },
+  {
+   "t": 38.32799999997951,
+   "kind": "final",
+   "pt": "A média de impacto na mesa, que você já tinha um minuto atrás.",
+   "en": "The average hit on the table you a minute ago too."
+  },
+  {
+   "t": 42.53200000000652,
+   "kind": "partial",
+   "pt": "Você",
+   "en": "You never listened to me, that's the problem."
+  },
+  {
+   "t": 42.56300000002375,
+   "kind": "partial",
+   "pt": "Você nunca",
+   "en": "You never listened to me, that's the problem."
+  },
+  {
+   "t": 42.60999999998603,
+   "kind": "partial",
+   "pt": "Você nunca me",
+   "en": "You never listened to me, that's the problem."
+  },
+  {
+   "t": 42.64100000000326,
+   "kind": "partial",
+   "pt": "Você nunca me ou",
+   "en": "You never listened to me, that's the problem."
+  },
+  {
+   "t": 42.68800000002375,
+   "kind": "partial",
+   "pt": "Você nunca me ouviu",
+   "en": "You never listened to me, that's the problem."
+  },
+  {
+   "t": 42.71899999998277,
+   "kind": "partial",
+   "pt": "Você nunca me ouviu,",
+   "en": "You never listened to me, that's the problem."
+  },
+  {
+   "t": 42.76600000000326,
+   "kind": "partial",
+   "pt": "Você nunca me ouviu, essa",
+   "en": "You never listened to me, that's the problem."
+  },
+  {
+   "t": 42.79700000002049,
+   "kind": "partial",
+   "pt": "Você nunca me ouviu, essa é",
+   "en": "You never listened to me, that's the problem."
+  },
+  {
+   "t": 42.84399999998277,
+   "kind": "partial",
+   "pt": "Você nunca me ouviu, essa é a",
+   "en": "You never listened to me, that's the problem."
+  },
+  {
+   "t": 42.875,
+   "kind": "partial",
+   "pt": "Você nunca me ouviu, essa é a questão",
+   "en": "You never listened to me, that's the problem."
+  },
+  {
+   "t": 42.92200000002049,
+   "kind": "partial",
+   "pt": "Você nunca me ouviu, essa é a questão.",
+   "en": "You never listened to me, that's the problem."
+  },
+  {
+   "t": 42.95299999997951,
+   "kind": "final",
+   "pt": "Você nunca me ouviu, essa é a questão.",
+   "en": "You never listened to me, that's the problem."
+  },
+  {
+   "t": 50.0,
+   "kind": "partial",
+   "pt": "Ok",
+   "en": "Okay, okay, I'm sorry. You call the mechanic if first fit a maru in just him how..."
+  },
+  {
+   "t": 50.04700000002049,
+   "kind": "partial",
+   "pt": "Ok,",
+   "en": "Okay, okay, I'm sorry. You call the mechanic if first fit a maru in just him how..."
+  },
+  {
+   "t": 50.07799999997951,
+   "kind": "partial",
+   "pt": "Ok, ok",
+   "en": "Okay, okay, I'm sorry. You call the mechanic if first fit a maru in just him how..."
+  },
+  {
+   "t": 50.125,
+   "kind": "partial",
+   "pt": "Ok, ok,",
+   "en": "Okay, okay, I'm sorry. You call the mechanic if first fit a maru in just him how..."
+  },
+  {
+   "t": 50.15700000000652,
+   "kind": "partial",
+   "pt": "Ok, ok, des",
+   "en": "Okay, okay, I'm sorry. You call the mechanic if first fit a maru in just him how..."
+  },
+  {
+   "t": 50.18800000002375,
+   "kind": "partial",
+   "pt": "Ok, ok, desculpa",
+   "en": "Okay, okay, I'm sorry. You call the mechanic if first fit a maru in just him how..."
+  },
+  {
+   "t": 50.23499999998603,
+   "kind": "partial",
+   "pt": "Ok, ok, desculpa.",
+   "en": "Okay, okay, I'm sorry. You call the mechanic if first fit a maru in just him how..."
+  },
+  {
+   "t": 50.29700000002049,
+   "kind": "partial",
+   "pt": "Ok, ok, desculpa. Você",
+   "en": "Okay, okay, I'm sorry. You call the mechanic if first fit a maru in just him how..."
+  },
+  {
+   "t": 50.32799999997951,
+   "kind": "partial",
+   "pt": "Ok, ok, desculpa. Você chama",
+   "en": "Okay, okay, I'm sorry. You call the mechanic if first fit a maru in just him how..."
+  },
+  {
+   "t": 50.375,
+   "kind": "partial",
+   "pt": "Ok, ok, desculpa. Você chama o",
+   "en": "Okay, okay, I'm sorry. You call the mechanic if first fit a maru in just him how..."
+  },
+  {
+   "t": 50.40700000000652,
+   "kind": "partial",
+   "pt": "Ok, ok, desculpa. Você chama o mec",
+   "en": "Okay, okay, I'm sorry. You call the mechanic if first fit a maru in just him how..."
+  },
+  {
+   "t": 50.45299999997951,
+   "kind": "partial",
+   "pt": "Ok, ok, desculpa. Você chama o mecânico",
+   "en": "Okay, okay, I'm sorry. You call the mechanic if first fit a maru in just him how..."
+  },
+  {
+   "t": 50.48499999998603,
+   "kind": "partial",
+   "pt": "Ok, ok, desculpa. Você chama o mecânico se",
+   "en": "Okay, okay, I'm sorry. You call the mechanic if first fit a maru in just him how..."
+  },
+  {
+   "t": 50.53200000000652,
+   "kind": "partial",
+   "pt": "Ok, ok, desculpa. Você chama o mecânico se o",
+   "en": "Okay, okay, I'm sorry. You call the mechanic if first fit a maru in just him how..."
+  },
+  {
+   "t": 50.56300000002375,
+   "kind": "partial",
+   "pt": "Ok, ok, desculpa. Você chama o mecânico se o primeiro",
+   "en": "Okay, okay, I'm sorry. You call the mechanic if first fit a maru in just him how..."
+  },
+  {
+   "t": 50.60999999998603,
+   "kind": "partial",
+   "pt": "Ok, ok, desculpa. Você chama o mecânico se o primeiro carro",
+   "en": "Okay, okay, I'm sorry. You call the mechanic if first fit a maru in just him how..."
+  },
+  {
+   "t": 50.65700000000652,
+   "kind": "partial",
+   "pt": "Ok, ok, desculpa. Você chama o mecânico se o primeiro carro que",
+   "en": "Okay, okay, I'm sorry. You call the mechanic if first fit a maru in just him how..."
+  },
+  {
+   "t": 50.68800000002375,
+   "kind": "partial",
+   "pt": "Ok, ok, desculpa. Você chama o mecânico se o primeiro carro que ele",
+   "en": "Okay, okay, I'm sorry. You call the mechanic if first fit a maru in just him how..."
+  },
+  {
+   "t": 50.71899999998277,
+   "kind": "partial",
+   "pt": "Ok, ok, desculpa. Você chama o mecânico se o primeiro carro que ele viu",
+   "en": "Okay, okay, I'm sorry. You call the mechanic if first fit a maru in just him how..."
+  },
+  {
+   "t": 50.76600000000326,
+   "kind": "partial",
+   "pt": "Ok, ok, desculpa. Você chama o mecânico se o primeiro carro que ele viu for",
+   "en": "Okay, okay, I'm sorry. You call the mechanic if first fit a maru in just him how..."
+  },
+  {
+   "t": 50.79700000002049,
+   "kind": "partial",
+   "pt": "Ok, ok, desculpa. Você chama o mecânico se o primeiro carro que ele viu for um",
+   "en": "Okay, okay, I'm sorry. You call the mechanic if first fit a maru in just him how..."
+  },
+  {
+   "t": 50.82799999997951,
+   "kind": "partial",
+   "pt": "Ok, ok, desculpa. Você chama o mecânico se o primeiro carro que ele viu for um Mar",
+   "en": "Okay, okay, I'm sorry. You call the mechanic if first fit a maru in just him how..."
+  },
+  {
+   "t": 50.875,
+   "kind": "partial",
+   "pt": "Ok, ok, desculpa. Você chama o mecânico se o primeiro carro que ele viu for um Maru",
+   "en": "Okay, okay, I'm sorry. You call the mechanic if first fit a maru in just him how..."
+  },
+  {
+   "t": 50.90700000000652,
+   "kind": "partial",
+   "pt": "Ok, ok, desculpa. Você chama o mecânico se o primeiro carro que ele viu for um Maru?",
+   "en": "Okay, okay, I'm sorry. You call the mechanic if first fit a maru in just him how..."
+  },
+  {
+   "t": 50.93800000002375,
+   "kind": "partial",
+   "pt": "Ok, ok, desculpa. Você chama o mecânico se o primeiro carro que ele viu for um Maru? Como",
+   "en": "Okay, okay, I'm sorry. You call the mechanic if first fit a maru in just him how..."
+  },
+  {
+   "t": 50.98499999998603,
+   "kind": "partial",
+   "pt": "Ok, ok, desculpa. Você chama o mecânico se o primeiro carro que ele viu for um Maru? Como...",
+   "en": "Okay, okay, I'm sorry. You call the mechanic if first fit a maru in just him how..."
+  },
+  {
+   "t": 51.01600000000326,
+   "kind": "final",
+   "pt": "Ok, ok, desculpa. Você chama o mecânico se o primeiro carro que ele viu for um Maru? Como...",
+   "en": "Okay, okay, I'm sorry. You call the mechanic if first fit a maru in just him how..."
+  },
+  {
+   "t": 54.48499999998603,
+   "kind": "partial",
+   "pt": "Vai",
+   "en": "how much it is going to cost to acidist chimi, alright."
+  },
+  {
+   "t": 54.53200000000652,
+   "kind": "partial",
+   "pt": "Vai cust",
+   "en": "how much it is going to cost to acidist chimi, alright."
+  },
+  {
+   "t": 54.56300000002375,
+   "kind": "partial",
+   "pt": "Vai custar",
+   "en": "how much it is going to cost to acidist chimi, alright."
+  },
+  {
+   "t": 54.60999999998603,
+   "kind": "partial",
+   "pt": "Vai custar uma",
+   "en": "how much it is going to cost to acidist chimi, alright."
+  },
+  {
+   "t": 54.65700000000652,
+   "kind": "partial",
+   "pt": "Vai custar uma fortuna",
+   "en": "how much it is going to cost to acidist chimi, alright."
+  },
+  {
+   "t": 54.68800000002375,
+   "kind": "partial",
+   "pt": "Vai custar uma fortuna para",
+   "en": "how much it is going to cost to acidist chimi, alright."
+  },
+  {
+   "t": 54.71899999998277,
+   "kind": "partial",
+   "pt": "Vai custar uma fortuna para acid",
+   "en": "how much it is going to cost to acidist chimi, alright."
+  },
+  {
+   "t": 54.76600000000326,
+   "kind": "partial",
+   "pt": "Vai custar uma fortuna para acidist",
+   "en": "how much it is going to cost to acidist chimi, alright."
+  },
+  {
+   "t": 54.79700000002049,
+   "kind": "partial",
+   "pt": "Vai custar uma fortuna para acidist ch",
+   "en": "how much it is going to cost to acidist chimi, alright."
+  },
+  {
+   "t": 54.84399999998277,
+   "kind": "partial",
+   "pt": "Vai custar uma fortuna para acidist chimi",
+   "en": "how much it is going to cost to acidist chimi, alright."
+  },
+  {
+   "t": 54.875,
+   "kind": "partial",
+   "pt": "Vai custar uma fortuna para acidist chimi,",
+   "en": "how much it is going to cost to acidist chimi, alright."
+  },
+  {
+   "t": 54.90700000000652,
+   "kind": "partial",
+   "pt": "Vai custar uma fortuna para acidist chimi, tá",
+   "en": "how much it is going to cost to acidist chimi, alright."
+  },
+  {
+   "t": 54.95299999997951,
+   "kind": "partial",
+   "pt": "Vai custar uma fortuna para acidist chimi, tá?",
+   "en": "how much it is going to cost to acidist chimi, alright."
+  },
+  {
+   "t": 54.98499999998603,
+   "kind": "final",
+   "pt": "Vai custar uma fortuna para acidist chimi, tá?",
+   "en": "how much it is going to cost to acidist chimi, alright."
+  },
+  {
+   "t": 56.48499999998603,
+   "kind": "cancel",
+   "pt": "",
+   "en": ""
+  },
+  {
+   "t": 59.67200000002049,
+   "kind": "partial",
+   "pt": "É",
+   "en": "That's all you and to the audience."
+  },
+  {
+   "t": 59.71899999998277,
+   "kind": "partial",
+   "pt": "É só",
+   "en": "That's all you and to the audience."
+  },
+  {
+   "t": 59.75,
+   "kind": "partial",
+   "pt": "É só isso",
+   "en": "That's all you and to the audience."
+  },
+  {
+   "t": 59.78200000000652,
+   "kind": "partial",
+   "pt": "É só isso que",
+   "en": "That's all you and to the audience."
+  },
+  {
+   "t": 59.82799999997951,
+   "kind": "partial",
+   "pt": "É só isso que você",
+   "en": "That's all you and to the audience."
+  },
+  {
+   "t": 59.85999999998603,
+   "kind": "partial",
+   "pt": "É só isso que você e",
+   "en": "That's all you and to the audience."
+  },
+  {
+   "t": 59.89100000000326,
+   "kind": "partial",
+   "pt": "É só isso que você e para",
+   "en": "That's all you and to the audience."
+  },
+  {
+   "t": 59.93800000002375,
+   "kind": "partial",
+   "pt": "É só isso que você e para o",
+   "en": "That's all you and to the audience."
+  },
+  {
+   "t": 59.96899999998277,
+   "kind": "partial",
+   "pt": "É só isso que você e para o público",
+   "en": "That's all you and to the audience."
+  },
+  {
+   "t": 60.01600000000326,
+   "kind": "partial",
+   "pt": "É só isso que você e para o público.",
+   "en": "That's all you and to the audience."
+  },
+  {
+   "t": 60.04700000002049,
+   "kind": "final",
+   "pt": "É só isso que você e para o público.",
+   "en": "That's all you and to the audience."
+  }
+ ]
+}

@@ -1,0 +1,3343 @@
+{
+ "resultado": [
+  {
+   "frase": "Hey, are you coming to the party tonight?",
+   "fala_s": 3.57,
+   "primeiro_texto_apos_inicio": 1.56,
+   "final_apos_fim_da_fala": 0.26,
+   "parciais": 70,
+   "finais": 1
+  },
+  {
+   "frase": "I don't know, I still have a lot of work to fini",
+   "fala_s": 6.06,
+   "primeiro_texto_apos_inicio": 0.51,
+   "final_apos_fim_da_fala": 0.23,
+   "parciais": 58,
+   "finais": 1
+  },
+  {
+   "frase": "Look, I talked to your brother yesterday and he ",
+   "fala_s": 13.52,
+   "primeiro_texto_apos_inicio": 2.37,
+   "final_apos_fim_da_fala": 0.29,
+   "parciais": 52,
+   "finais": 2
+  },
+  {
+   "frase": "Fine. Let's go.",
+   "fala_s": 2.67,
+   "primeiro_texto_apos_inicio": 0.79,
+   "final_apos_fim_da_fala": 0.15,
+   "parciais": 14,
+   "finais": 2
+  },
+  {
+   "frase": "Where did you put the keys? They were right here",
+   "fala_s": 6.67,
+   "primeiro_texto_apos_inicio": 0.97,
+   "final_apos_fim_da_fala": 0.13,
+   "parciais": 52,
+   "finais": 2
+  },
+  {
+   "frase": "You never listen to me, that's the problem.",
+   "fala_s": 3.76,
+   "primeiro_texto_apos_inicio": 1.28,
+   "final_apos_fim_da_fala": 0.19,
+   "parciais": 32,
+   "finais": 1
+  },
+  {
+   "frase": "Okay, okay, I'm sorry, I will call the mechanic ",
+   "fala_s": 11.31,
+   "primeiro_texto_apos_inicio": 3.71,
+   "final_apos_fim_da_fala": 0.1,
+   "parciais": 54,
+   "finais": 2
+  },
+  {
+   "frase": "Thank you. That's all I wanted to hear.",
+   "fala_s": 4.27,
+   "primeiro_texto_apos_inicio": -39.58,
+   "final_apos_fim_da_fala": 0.13,
+   "parciais": 26,
+   "finais": 1
+  }
+ ],
+ "acerto_palavras_en": 0.879,
+ "finais_pt": [
+  "Hey, are you coming to the party tonight?",
+  "I don't know, still have a lot of work to finish before tomorrow morning.",
+  "Look, I talked to your brother yesterday and I said that the car is still broken and no",
+  "but no, it will be fixed so you will probably have to take the bus again next week.",
+  "Fine.",
+  "Let's go.",
+  "Where did you put the keys?",
+  "They were right here on the table a minute ago.",
+  "You never listened to me, that's the problem.",
+  "Okay, okay, I'm sorry, you will call the mechanic first fit a maro and ask him how much.",
+  "It is going to cost us this time, alright.",
+  "That's all you want to do here."
+ ],
+ "eventos": [
+  {
+   "t": 1.625,
+   "kind": "partial",
+   "pt": "Hey.",
+   "en": "Hey."
+  },
+  {
+   "t": 1.625,
+   "kind": "partial",
+   "pt": "Hey.",
+   "en": "Hey."
+  },
+  {
+   "t": 1.7820000000065193,
+   "kind": "partial",
+   "pt": "Hey.",
+   "en": "Hey."
+  },
+  {
+   "t": 1.7820000000065193,
+   "kind": "partial",
+   "pt": "Hey.",
+   "en": "Hey."
+  },
+  {
+   "t": 1.922000000020489,
+   "kind": "partial",
+   "pt": "Hey!",
+   "en": "Hey!"
+  },
+  {
+   "t": 1.922000000020489,
+   "kind": "partial",
+   "pt": "Hey!",
+   "en": "Hey!"
+  },
+  {
+   "t": 2.094000000040978,
+   "kind": "partial",
+   "pt": "Hey,",
+   "en": "Hey,"
+  },
+  {
+   "t": 2.094000000040978,
+   "kind": "partial",
+   "pt": "Hey,",
+   "en": "Hey,"
+  },
+  {
+   "t": 2.235000000044238,
+   "kind": "partial",
+   "pt": "Hey, Adi",
+   "en": "Hey, Adi"
+  },
+  {
+   "t": 2.235000000044238,
+   "kind": "partial",
+   "pt": "Hey, Adi",
+   "en": "Hey, Adi"
+  },
+  {
+   "t": 2.4070000000065193,
+   "kind": "partial",
+   "pt": "Hey, adieu.",
+   "en": "Hey, adieu."
+  },
+  {
+   "t": 2.4070000000065193,
+   "kind": "partial",
+   "pt": "Hey, adieu.",
+   "en": "Hey, adieu."
+  },
+  {
+   "t": 2.5630000000237487,
+   "kind": "partial",
+   "pt": "Hey, are you coming?",
+   "en": "Hey, are you coming?"
+  },
+  {
+   "t": 2.5630000000237487,
+   "kind": "partial",
+   "pt": "Hey, are you coming?",
+   "en": "Hey, are you coming?"
+  },
+  {
+   "t": 2.719000000040978,
+   "kind": "partial",
+   "pt": "Hey, are you coming?",
+   "en": "Hey, are you coming?"
+  },
+  {
+   "t": 2.719000000040978,
+   "kind": "partial",
+   "pt": "Hey, are you coming?",
+   "en": "Hey, are you coming?"
+  },
+  {
+   "t": 2.8910000000032596,
+   "kind": "partial",
+   "pt": "Hey, are you coming to",
+   "en": "Hey, are you coming to"
+  },
+  {
+   "t": 2.8910000000032596,
+   "kind": "partial",
+   "pt": "Hey, are you coming to",
+   "en": "Hey, are you coming to"
+  },
+  {
+   "t": 3.0790000000270084,
+   "kind": "partial",
+   "pt": "REI, ARIUKAMI TEODE",
+   "en": "REI, ARIUKAMI TEODE"
+  },
+  {
+   "t": 3.0790000000270084,
+   "kind": "partial",
+   "pt": "REI, ARIUKAMI TEODE",
+   "en": "REI, ARIUKAMI TEODE"
+  },
+  {
+   "t": 3.25,
+   "kind": "partial",
+   "pt": "Hey, are you coming to the",
+   "en": "Hey, are you coming to the"
+  },
+  {
+   "t": 3.25,
+   "kind": "partial",
+   "pt": "Hey, are you coming to the",
+   "en": "Hey, are you coming to the"
+  },
+  {
+   "t": 3.422000000020489,
+   "kind": "partial",
+   "pt": "Hey, are you coming to depart?",
+   "en": "Hey, are you coming to depart?"
+  },
+  {
+   "t": 3.422000000020489,
+   "kind": "partial",
+   "pt": "Hey, are you coming to depart?",
+   "en": "Hey, are you coming to depart?"
+  },
+  {
+   "t": 3.594000000040978,
+   "kind": "partial",
+   "pt": "Hey, are you coming to the party?",
+   "en": "Hey, are you coming to the party?"
+  },
+  {
+   "t": 3.594000000040978,
+   "kind": "partial",
+   "pt": "Hey, are you coming to the party?",
+   "en": "Hey, are you coming to the party?"
+  },
+  {
+   "t": 3.7660000000032596,
+   "kind": "partial",
+   "pt": "Hey, are you coming to the party?",
+   "en": "Hey, are you coming to the party?"
+  },
+  {
+   "t": 3.7660000000032596,
+   "kind": "partial",
+   "pt": "Hey, are you coming to the party?",
+   "en": "Hey, are you coming to the party?"
+  },
+  {
+   "t": 3.9380000000237487,
+   "kind": "partial",
+   "pt": "Hey, are you coming to the party tonight?",
+   "en": "Hey, are you coming to the party tonight?"
+  },
+  {
+   "t": 3.9380000000237487,
+   "kind": "partial",
+   "pt": "Hey, are you coming to the party tonight?",
+   "en": "Hey, are you coming to the party tonight?"
+  },
+  {
+   "t": 4.110000000044238,
+   "kind": "partial",
+   "pt": "Hey, are you coming to the party tonight?",
+   "en": "Hey, are you coming to the party tonight?"
+  },
+  {
+   "t": 4.110000000044238,
+   "kind": "partial",
+   "pt": "Hey, are you coming to the party tonight?",
+   "en": "Hey, are you coming to the party tonight?"
+  },
+  {
+   "t": 4.282000000006519,
+   "kind": "partial",
+   "pt": "Hey, are you coming to the party tonight?",
+   "en": "Hey, are you coming to the party tonight?"
+  },
+  {
+   "t": 4.282000000006519,
+   "kind": "partial",
+   "pt": "Hey, are you coming to the party tonight?",
+   "en": "Hey, are you coming to the party tonight?"
+  },
+  {
+   "t": 4.469000000040978,
+   "kind": "partial",
+   "pt": "Hey, are you coming to the party tonight?",
+   "en": "Hey, are you coming to the party tonight?"
+  },
+  {
+   "t": 4.469000000040978,
+   "kind": "partial",
+   "pt": "Hey, are you coming to the party tonight?",
+   "en": "Hey, are you coming to the party tonight?"
+  },
+  {
+   "t": 4.657000000006519,
+   "kind": "partial",
+   "pt": "Hey, are you coming to the party tonight?",
+   "en": "Hey, are you coming to the party tonight?"
+  },
+  {
+   "t": 4.657000000006519,
+   "kind": "partial",
+   "pt": "Hey, are you coming to the party tonight?",
+   "en": "Hey, are you coming to the party tonight?"
+  },
+  {
+   "t": 4.829000000027008,
+   "kind": "final",
+   "pt": "Hey, are you coming to the party tonight?",
+   "en": "Hey, are you coming to the party tonight?"
+  },
+  {
+   "t": 5.719000000040978,
+   "kind": "partial",
+   "pt": "- Yes.",
+   "en": "- Yes."
+  },
+  {
+   "t": 5.719000000040978,
+   "kind": "partial",
+   "pt": "- Yes.",
+   "en": "- Yes."
+  },
+  {
+   "t": 5.875,
+   "kind": "partial",
+   "pt": "I don't know.",
+   "en": "I don't know."
+  },
+  {
+   "t": 5.875,
+   "kind": "partial",
+   "pt": "I don't know.",
+   "en": "I don't know."
+  },
+  {
+   "t": 6.032000000006519,
+   "kind": "partial",
+   "pt": "And don't.",
+   "en": "And don't."
+  },
+  {
+   "t": 6.032000000006519,
+   "kind": "partial",
+   "pt": "And don't.",
+   "en": "And don't."
+  },
+  {
+   "t": 6.188000000023749,
+   "kind": "partial",
+   "pt": "Don't you?",
+   "en": "Don't you?"
+  },
+  {
+   "t": 6.188000000023749,
+   "kind": "partial",
+   "pt": "Don't you?",
+   "en": "Don't you?"
+  },
+  {
+   "t": 6.360000000044238,
+   "kind": "partial",
+   "pt": "Don't you know",
+   "en": "Don't you know"
+  },
+  {
+   "t": 6.360000000044238,
+   "kind": "partial",
+   "pt": "Don't you know",
+   "en": "Don't you know"
+  },
+  {
+   "t": 6.51600000000326,
+   "kind": "partial",
+   "pt": "I don't know.",
+   "en": "I don't know."
+  },
+  {
+   "t": 6.51600000000326,
+   "kind": "partial",
+   "pt": "I don't know.",
+   "en": "I don't know."
+  },
+  {
+   "t": 6.672000000020489,
+   "kind": "partial",
+   "pt": "I don't know.",
+   "en": "I don't know."
+  },
+  {
+   "t": 6.672000000020489,
+   "kind": "partial",
+   "pt": "I don't know.",
+   "en": "I don't know."
+  },
+  {
+   "t": 6.829000000027008,
+   "kind": "partial",
+   "pt": "I don't know.",
+   "en": "I don't know."
+  },
+  {
+   "t": 6.829000000027008,
+   "kind": "partial",
+   "pt": "I don't know.",
+   "en": "I don't know."
+  },
+  {
+   "t": 6.985000000044238,
+   "kind": "partial",
+   "pt": "and don't know",
+   "en": "and don't know"
+  },
+  {
+   "t": 6.985000000044238,
+   "kind": "partial",
+   "pt": "and don't know",
+   "en": "and don't know"
+  },
+  {
+   "t": 7.14100000000326,
+   "kind": "partial",
+   "pt": "I don't know",
+   "en": "I don't know"
+  },
+  {
+   "t": 7.14100000000326,
+   "kind": "partial",
+   "pt": "I don't know",
+   "en": "I don't know"
+  },
+  {
+   "t": 7.313000000023749,
+   "kind": "partial",
+   "pt": "and don't know, still",
+   "en": "and don't know, still"
+  },
+  {
+   "t": 7.313000000023749,
+   "kind": "partial",
+   "pt": "and don't know, still",
+   "en": "and don't know, still"
+  },
+  {
+   "t": 7.485000000044238,
+   "kind": "partial",
+   "pt": "Don't know, still have",
+   "en": "Don't know, still have"
+  },
+  {
+   "t": 7.485000000044238,
+   "kind": "partial",
+   "pt": "Don't know, still have",
+   "en": "Don't know, still have"
+  },
+  {
+   "t": 7.657000000006519,
+   "kind": "partial",
+   "pt": "I don't know, still have a",
+   "en": "I don't know, still have a"
+  },
+  {
+   "t": 7.657000000006519,
+   "kind": "partial",
+   "pt": "I don't know, still have a",
+   "en": "I don't know, still have a"
+  },
+  {
+   "t": 7.829000000027008,
+   "kind": "partial",
+   "pt": "and don't know still have a lot",
+   "en": "and don't know still have a lot"
+  },
+  {
+   "t": 7.829000000027008,
+   "kind": "partial",
+   "pt": "and don't know still have a lot",
+   "en": "and don't know still have a lot"
+  },
+  {
+   "t": 7.985000000044238,
+   "kind": "partial",
+   "pt": "don't know still have a lot",
+   "en": "don't know still have a lot"
+  },
+  {
+   "t": 7.985000000044238,
+   "kind": "partial",
+   "pt": "don't know still have a lot",
+   "en": "don't know still have a lot"
+  },
+  {
+   "t": 8.15700000000652,
+   "kind": "partial",
+   "pt": "I don't know, still have a lot of people.",
+   "en": "I don't know, still have a lot of people."
+  },
+  {
+   "t": 8.15700000000652,
+   "kind": "partial",
+   "pt": "I don't know, still have a lot of people.",
+   "en": "I don't know, still have a lot of people."
+  },
+  {
+   "t": 8.329000000027008,
+   "kind": "partial",
+   "pt": "I don't know, still have a lot of",
+   "en": "I don't know, still have a lot of"
+  },
+  {
+   "t": 8.329000000027008,
+   "kind": "partial",
+   "pt": "I don't know, still have a lot of",
+   "en": "I don't know, still have a lot of"
+  },
+  {
+   "t": 8.485000000044238,
+   "kind": "partial",
+   "pt": "I don't know, still have a lot of you",
+   "en": "I don't know, still have a lot of you"
+  },
+  {
+   "t": 8.485000000044238,
+   "kind": "partial",
+   "pt": "I don't know, still have a lot of you",
+   "en": "I don't know, still have a lot of you"
+  },
+  {
+   "t": 8.65700000000652,
+   "kind": "partial",
+   "pt": "I don't know, still have a lot of your friends.",
+   "en": "I don't know, still have a lot of your friends."
+  },
+  {
+   "t": 8.65700000000652,
+   "kind": "partial",
+   "pt": "I don't know, still have a lot of your friends.",
+   "en": "I don't know, still have a lot of your friends."
+  },
+  {
+   "t": 8.829000000027008,
+   "kind": "partial",
+   "pt": "I don't know, still have a lot of work.",
+   "en": "I don't know, still have a lot of work."
+  },
+  {
+   "t": 8.829000000027008,
+   "kind": "partial",
+   "pt": "I don't know, still have a lot of work.",
+   "en": "I don't know, still have a lot of work."
+  },
+  {
+   "t": 9.0,
+   "kind": "partial",
+   "pt": "I don't know, still have a lot of work there.",
+   "en": "I don't know, still have a lot of work there."
+  },
+  {
+   "t": 9.0,
+   "kind": "partial",
+   "pt": "I don't know, still have a lot of work there.",
+   "en": "I don't know, still have a lot of work there."
+  },
+  {
+   "t": 9.188000000023749,
+   "kind": "partial",
+   "pt": "I don't know, still have a lot of work to have.",
+   "en": "I don't know, still have a lot of work to have."
+  },
+  {
+   "t": 9.188000000023749,
+   "kind": "partial",
+   "pt": "I don't know, still have a lot of work to have.",
+   "en": "I don't know, still have a lot of work to have."
+  },
+  {
+   "t": 9.360000000044238,
+   "kind": "partial",
+   "pt": "I don't know, still have a lot of work to finish.",
+   "en": "I don't know, still have a lot of work to finish."
+  },
+  {
+   "t": 9.360000000044238,
+   "kind": "partial",
+   "pt": "I don't know, still have a lot of work to finish.",
+   "en": "I don't know, still have a lot of work to finish."
+  },
+  {
+   "t": 9.547000000020489,
+   "kind": "partial",
+   "pt": "I don't know, still have a lot of work to finish",
+   "en": "I don't know, still have a lot of work to finish"
+  },
+  {
+   "t": 9.547000000020489,
+   "kind": "partial",
+   "pt": "I don't know, still have a lot of work to finish",
+   "en": "I don't know, still have a lot of work to finish"
+  },
+  {
+   "t": 9.75,
+   "kind": "partial",
+   "pt": "I don't know, still have a lot of work to finish before.",
+   "en": "I don't know, still have a lot of work to finish before."
+  },
+  {
+   "t": 9.75,
+   "kind": "partial",
+   "pt": "I don't know, still have a lot of work to finish before.",
+   "en": "I don't know, still have a lot of work to finish before."
+  },
+  {
+   "t": 9.938000000023749,
+   "kind": "partial",
+   "pt": "I don't know, still have a lot of work to finish before",
+   "en": "I don't know, still have a lot of work to finish before"
+  },
+  {
+   "t": 9.938000000023749,
+   "kind": "partial",
+   "pt": "I don't know, still have a lot of work to finish before",
+   "en": "I don't know, still have a lot of work to finish before"
+  },
+  {
+   "t": 10.110000000044238,
+   "kind": "partial",
+   "pt": "I don't know, still have a lot of work to finish before tonight.",
+   "en": "I don't know, still have a lot of work to finish before tonight."
+  },
+  {
+   "t": 10.110000000044238,
+   "kind": "partial",
+   "pt": "I don't know, still have a lot of work to finish before tonight.",
+   "en": "I don't know, still have a lot of work to finish before tonight."
+  },
+  {
+   "t": 10.297000000020489,
+   "kind": "partial",
+   "pt": "I don't know, still have a lot of work, the finish before tomorrow.",
+   "en": "I don't know, still have a lot of work, the finish before tomorrow."
+  },
+  {
+   "t": 10.297000000020489,
+   "kind": "partial",
+   "pt": "I don't know, still have a lot of work, the finish before tomorrow.",
+   "en": "I don't know, still have a lot of work, the finish before tomorrow."
+  },
+  {
+   "t": 10.5,
+   "kind": "partial",
+   "pt": "I don't know, still have a lot of work, the finish before tomorrow,",
+   "en": "I don't know, still have a lot of work, the finish before tomorrow,"
+  },
+  {
+   "t": 10.5,
+   "kind": "partial",
+   "pt": "I don't know, still have a lot of work, the finish before tomorrow,",
+   "en": "I don't know, still have a lot of work, the finish before tomorrow,"
+  },
+  {
+   "t": 10.688000000023749,
+   "kind": "partial",
+   "pt": "I don't know, still have a lot of work, they'll finish before tomorrow morning.",
+   "en": "I don't know, still have a lot of work, they'll finish before tomorrow morning."
+  },
+  {
+   "t": 10.688000000023749,
+   "kind": "partial",
+   "pt": "I don't know, still have a lot of work, they'll finish before tomorrow morning.",
+   "en": "I don't know, still have a lot of work, they'll finish before tomorrow morning."
+  },
+  {
+   "t": 10.89100000000326,
+   "kind": "partial",
+   "pt": "I don't know, still have a lot of work, they'll finish before Tamaro more.",
+   "en": "I don't know, still have a lot of work, they'll finish before Tamaro more."
+  },
+  {
+   "t": 10.89100000000326,
+   "kind": "partial",
+   "pt": "I don't know, still have a lot of work, they'll finish before Tamaro more.",
+   "en": "I don't know, still have a lot of work, they'll finish before Tamaro more."
+  },
+  {
+   "t": 11.079000000027008,
+   "kind": "partial",
+   "pt": "I don't know, still have a lot of work, the finish before tomorrow morning.",
+   "en": "I don't know, still have a lot of work, the finish before tomorrow morning."
+  },
+  {
+   "t": 11.079000000027008,
+   "kind": "partial",
+   "pt": "I don't know, still have a lot of work, the finish before tomorrow morning.",
+   "en": "I don't know, still have a lot of work, the finish before tomorrow morning."
+  },
+  {
+   "t": 11.28200000000652,
+   "kind": "partial",
+   "pt": "I don't know, still have a lot of work to finish before tomorrow morning.",
+   "en": "I don't know, still have a lot of work to finish before tomorrow morning."
+  },
+  {
+   "t": 11.28200000000652,
+   "kind": "partial",
+   "pt": "I don't know, still have a lot of work to finish before tomorrow morning.",
+   "en": "I don't know, still have a lot of work to finish before tomorrow morning."
+  },
+  {
+   "t": 11.485000000044238,
+   "kind": "partial",
+   "pt": "I don't know, still have a lot of work to finish before tomorrow morning.",
+   "en": "I don't know, still have a lot of work to finish before tomorrow morning."
+  },
+  {
+   "t": 11.485000000044238,
+   "kind": "partial",
+   "pt": "I don't know, still have a lot of work to finish before tomorrow morning.",
+   "en": "I don't know, still have a lot of work to finish before tomorrow morning."
+  },
+  {
+   "t": 11.65700000000652,
+   "kind": "final",
+   "pt": "I don't know, still have a lot of work to finish before tomorrow morning.",
+   "en": "I don't know, still have a lot of work to finish before tomorrow morning."
+  },
+  {
+   "t": 12.610000000044238,
+   "kind": "partial",
+   "pt": "Hello.",
+   "en": "Hello."
+  },
+  {
+   "t": 12.610000000044238,
+   "kind": "partial",
+   "pt": "Hello.",
+   "en": "Hello."
+  },
+  {
+   "t": 12.78200000000652,
+   "kind": "partial",
+   "pt": "Luke.",
+   "en": "Luke."
+  },
+  {
+   "t": 12.78200000000652,
+   "kind": "partial",
+   "pt": "Luke.",
+   "en": "Luke."
+  },
+  {
+   "t": 12.922000000020489,
+   "kind": "partial",
+   "pt": "Lucky.",
+   "en": "Lucky."
+  },
+  {
+   "t": 12.922000000020489,
+   "kind": "partial",
+   "pt": "Lucky.",
+   "en": "Lucky."
+  },
+  {
+   "t": 13.079000000027008,
+   "kind": "partial",
+   "pt": "Lucky.",
+   "en": "Lucky."
+  },
+  {
+   "t": 13.079000000027008,
+   "kind": "partial",
+   "pt": "Lucky.",
+   "en": "Lucky."
+  },
+  {
+   "t": 13.235000000044238,
+   "kind": "partial",
+   "pt": "Luke.",
+   "en": "Luke."
+  },
+  {
+   "t": 13.235000000044238,
+   "kind": "partial",
+   "pt": "Luke.",
+   "en": "Luke."
+  },
+  {
+   "t": 13.39100000000326,
+   "kind": "partial",
+   "pt": "Luke,",
+   "en": "Luke,"
+  },
+  {
+   "t": 13.39100000000326,
+   "kind": "partial",
+   "pt": "Luke,",
+   "en": "Luke,"
+  },
+  {
+   "t": 13.547000000020489,
+   "kind": "partial",
+   "pt": "Luke, it's okay.",
+   "en": "Luke, it's okay."
+  },
+  {
+   "t": 13.547000000020489,
+   "kind": "partial",
+   "pt": "Luke, it's okay.",
+   "en": "Luke, it's okay."
+  },
+  {
+   "t": 13.704000000027008,
+   "kind": "partial",
+   "pt": "Luke, he talked.",
+   "en": "Luke, he talked."
+  },
+  {
+   "t": 13.704000000027008,
+   "kind": "partial",
+   "pt": "Luke, he talked.",
+   "en": "Luke, he talked."
+  },
+  {
+   "t": 13.860000000044238,
+   "kind": "partial",
+   "pt": "Luke, it talked to",
+   "en": "Luke, it talked to"
+  },
+  {
+   "t": 13.860000000044238,
+   "kind": "partial",
+   "pt": "Luke, it talked to",
+   "en": "Luke, it talked to"
+  },
+  {
+   "t": 14.01600000000326,
+   "kind": "partial",
+   "pt": "Luke, it talked to you.",
+   "en": "Luke, it talked to you."
+  },
+  {
+   "t": 14.01600000000326,
+   "kind": "partial",
+   "pt": "Luke, it talked to you.",
+   "en": "Luke, it talked to you."
+  },
+  {
+   "t": 14.172000000020489,
+   "kind": "partial",
+   "pt": "Luke, he talked to you.",
+   "en": "Luke, he talked to you."
+  },
+  {
+   "t": 14.172000000020489,
+   "kind": "partial",
+   "pt": "Luke, he talked to you.",
+   "en": "Luke, he talked to you."
+  },
+  {
+   "t": 14.344000000040978,
+   "kind": "partial",
+   "pt": "Luke, it talked to a York.",
+   "en": "Luke, it talked to a York."
+  },
+  {
+   "t": 14.344000000040978,
+   "kind": "partial",
+   "pt": "Luke, it talked to a York.",
+   "en": "Luke, it talked to a York."
+  },
+  {
+   "t": 14.5,
+   "kind": "partial",
+   "pt": "Look, it talked to your brother.",
+   "en": "Look, it talked to your brother."
+  },
+  {
+   "t": 14.5,
+   "kind": "partial",
+   "pt": "Look, it talked to your brother.",
+   "en": "Look, it talked to your brother."
+  },
+  {
+   "t": 14.65700000000652,
+   "kind": "partial",
+   "pt": "Look, it talked to your brother.",
+   "en": "Look, it talked to your brother."
+  },
+  {
+   "t": 14.65700000000652,
+   "kind": "partial",
+   "pt": "Look, it talked to your brother.",
+   "en": "Look, it talked to your brother."
+  },
+  {
+   "t": 14.813000000023749,
+   "kind": "partial",
+   "pt": "Look, you talked to your brother.",
+   "en": "Look, you talked to your brother."
+  },
+  {
+   "t": 14.813000000023749,
+   "kind": "partial",
+   "pt": "Look, you talked to your brother.",
+   "en": "Look, you talked to your brother."
+  },
+  {
+   "t": 14.985000000044238,
+   "kind": "partial",
+   "pt": "Look, you talked to your brother and I",
+   "en": "Look, you talked to your brother and I"
+  },
+  {
+   "t": 14.985000000044238,
+   "kind": "partial",
+   "pt": "Look, you talked to your brother and I",
+   "en": "Look, you talked to your brother and I"
+  },
+  {
+   "t": 15.15700000000652,
+   "kind": "partial",
+   "pt": "Look, you talked to your brother yes.",
+   "en": "Look, you talked to your brother yes."
+  },
+  {
+   "t": 15.15700000000652,
+   "kind": "partial",
+   "pt": "Look, you talked to your brother yes.",
+   "en": "Look, you talked to your brother yes."
+  },
+  {
+   "t": 15.329000000027008,
+   "kind": "partial",
+   "pt": "Luke, you talked to your brother and Esther.",
+   "en": "Luke, you talked to your brother and Esther."
+  },
+  {
+   "t": 15.329000000027008,
+   "kind": "partial",
+   "pt": "Luke, you talked to your brother and Esther.",
+   "en": "Luke, you talked to your brother and Esther."
+  },
+  {
+   "t": 15.51600000000326,
+   "kind": "partial",
+   "pt": "Look, you talked to your brother yesterday.",
+   "en": "Look, you talked to your brother yesterday."
+  },
+  {
+   "t": 15.51600000000326,
+   "kind": "partial",
+   "pt": "Look, you talked to your brother yesterday.",
+   "en": "Look, you talked to your brother yesterday."
+  },
+  {
+   "t": 15.672000000020489,
+   "kind": "partial",
+   "pt": "Look, you talked to your brother yesterday.",
+   "en": "Look, you talked to your brother yesterday."
+  },
+  {
+   "t": 15.672000000020489,
+   "kind": "partial",
+   "pt": "Look, you talked to your brother yesterday.",
+   "en": "Look, you talked to your brother yesterday."
+  },
+  {
+   "t": 15.844000000040978,
+   "kind": "partial",
+   "pt": "Luke, he talked to your brother yesterday.",
+   "en": "Luke, he talked to your brother yesterday."
+  },
+  {
+   "t": 15.844000000040978,
+   "kind": "partial",
+   "pt": "Luke, he talked to your brother yesterday.",
+   "en": "Luke, he talked to your brother yesterday."
+  },
+  {
+   "t": 16.03200000000652,
+   "kind": "partial",
+   "pt": "Look, you talked to your brother yesterday and yesterday.",
+   "en": "Look, you talked to your brother yesterday and yesterday."
+  },
+  {
+   "t": 16.03200000000652,
+   "kind": "partial",
+   "pt": "Look, you talked to your brother yesterday and yesterday.",
+   "en": "Look, you talked to your brother yesterday and yesterday."
+  },
+  {
+   "t": 16.20400000002701,
+   "kind": "partial",
+   "pt": "Luke, you talked to your brother yesterday and yesterday.",
+   "en": "Luke, you talked to your brother yesterday and yesterday."
+  },
+  {
+   "t": 16.20400000002701,
+   "kind": "partial",
+   "pt": "Luke, you talked to your brother yesterday and yesterday.",
+   "en": "Luke, you talked to your brother yesterday and yesterday."
+  },
+  {
+   "t": 16.375,
+   "kind": "partial",
+   "pt": "Luke, you talked to your brother yesterday and received",
+   "en": "Luke, you talked to your brother yesterday and received"
+  },
+  {
+   "t": 16.375,
+   "kind": "partial",
+   "pt": "Luke, you talked to your brother yesterday and received",
+   "en": "Luke, you talked to your brother yesterday and received"
+  },
+  {
+   "t": 16.54700000002049,
+   "kind": "partial",
+   "pt": "Luke, you talked to your brother yesterday and he said",
+   "en": "Luke, you talked to your brother yesterday and he said"
+  },
+  {
+   "t": 16.54700000002049,
+   "kind": "partial",
+   "pt": "Luke, you talked to your brother yesterday and he said",
+   "en": "Luke, you talked to your brother yesterday and he said"
+  },
+  {
+   "t": 16.75,
+   "kind": "partial",
+   "pt": "Luke, you talked to your brother yesterday and he said he'd be.",
+   "en": "Luke, you talked to your brother yesterday and he said he'd be."
+  },
+  {
+   "t": 16.75,
+   "kind": "partial",
+   "pt": "Luke, you talked to your brother yesterday and he said he'd be.",
+   "en": "Luke, you talked to your brother yesterday and he said he'd be."
+  },
+  {
+   "t": 16.93800000002375,
+   "kind": "partial",
+   "pt": "Luke, you talked to your brother yesterday and he said that",
+   "en": "Luke, you talked to your brother yesterday and he said that"
+  },
+  {
+   "t": 16.93800000002375,
+   "kind": "partial",
+   "pt": "Luke, you talked to your brother yesterday and he said that",
+   "en": "Luke, you talked to your brother yesterday and he said that"
+  },
+  {
+   "t": 17.125,
+   "kind": "partial",
+   "pt": "Luke, you talked to your brother yesterday and he said that the",
+   "en": "Luke, you talked to your brother yesterday and he said that the"
+  },
+  {
+   "t": 17.125,
+   "kind": "partial",
+   "pt": "Luke, you talked to your brother yesterday and he said that the",
+   "en": "Luke, you talked to your brother yesterday and he said that the"
+  },
+  {
+   "t": 17.31300000002375,
+   "kind": "partial",
+   "pt": "Look, it talked to your brother yesterday and he said that the country.",
+   "en": "Look, it talked to your brother yesterday and he said that the country."
+  },
+  {
+   "t": 17.31300000002375,
+   "kind": "partial",
+   "pt": "Look, it talked to your brother yesterday and he said that the country.",
+   "en": "Look, it talked to your brother yesterday and he said that the country."
+  },
+  {
+   "t": 17.5,
+   "kind": "partial",
+   "pt": "Look, I talked to your brother yesterday and he said that the car is",
+   "en": "Look, I talked to your brother yesterday and he said that the car is"
+  },
+  {
+   "t": 17.5,
+   "kind": "partial",
+   "pt": "Look, I talked to your brother yesterday and he said that the car is",
+   "en": "Look, I talked to your brother yesterday and he said that the car is"
+  },
+  {
+   "t": 17.68800000002375,
+   "kind": "partial",
+   "pt": "Look, I talked to your brother yesterday and I said that the car is safe.",
+   "en": "Look, I talked to your brother yesterday and I said that the car is safe."
+  },
+  {
+   "t": 17.68800000002375,
+   "kind": "partial",
+   "pt": "Look, I talked to your brother yesterday and I said that the car is safe.",
+   "en": "Look, I talked to your brother yesterday and I said that the car is safe."
+  },
+  {
+   "t": 17.875,
+   "kind": "partial",
+   "pt": "Look, it talked to your brother yesterday and he said that the car is still.",
+   "en": "Look, it talked to your brother yesterday and he said that the car is still."
+  },
+  {
+   "t": 17.875,
+   "kind": "partial",
+   "pt": "Look, it talked to your brother yesterday and he said that the car is still.",
+   "en": "Look, it talked to your brother yesterday and he said that the car is still."
+  },
+  {
+   "t": 18.07900000002701,
+   "kind": "partial",
+   "pt": "Look, I talked to your brother yesterday and I said that the car is still broken.",
+   "en": "Look, I talked to your brother yesterday and I said that the car is still broken."
+  },
+  {
+   "t": 18.07900000002701,
+   "kind": "partial",
+   "pt": "Look, I talked to your brother yesterday and I said that the car is still broken.",
+   "en": "Look, I talked to your brother yesterday and I said that the car is still broken."
+  },
+  {
+   "t": 18.26600000000326,
+   "kind": "partial",
+   "pt": "Look, I talked to your brother yesterday and I said that the car is still broken.",
+   "en": "Look, I talked to your brother yesterday and I said that the car is still broken."
+  },
+  {
+   "t": 18.26600000000326,
+   "kind": "partial",
+   "pt": "Look, I talked to your brother yesterday and I said that the car is still broken.",
+   "en": "Look, I talked to your brother yesterday and I said that the car is still broken."
+  },
+  {
+   "t": 18.45400000002701,
+   "kind": "partial",
+   "pt": "Look, I talked to your brother yesterday and I said that the car is still broken.",
+   "en": "Look, I talked to your brother yesterday and I said that the car is still broken."
+  },
+  {
+   "t": 18.45400000002701,
+   "kind": "partial",
+   "pt": "Look, I talked to your brother yesterday and I said that the car is still broken.",
+   "en": "Look, I talked to your brother yesterday and I said that the car is still broken."
+  },
+  {
+   "t": 18.65700000000652,
+   "kind": "partial",
+   "pt": "Look, I talked to your brother yesterday and I said that the car is still broken in",
+   "en": "Look, I talked to your brother yesterday and I said that the car is still broken in"
+  },
+  {
+   "t": 18.65700000000652,
+   "kind": "partial",
+   "pt": "Look, I talked to your brother yesterday and I said that the car is still broken in",
+   "en": "Look, I talked to your brother yesterday and I said that the car is still broken in"
+  },
+  {
+   "t": 18.844000000040978,
+   "kind": "partial",
+   "pt": "Look, I talked to your brother yesterday and I said that the car is still broken and",
+   "en": "Look, I talked to your brother yesterday and I said that the car is still broken and"
+  },
+  {
+   "t": 18.844000000040978,
+   "kind": "partial",
+   "pt": "Look, I talked to your brother yesterday and I said that the car is still broken and",
+   "en": "Look, I talked to your brother yesterday and I said that the car is still broken and"
+  },
+  {
+   "t": 19.03200000000652,
+   "kind": "partial",
+   "pt": "Look, I talked to your brother yesterday and I said that the car is still broken and no",
+   "en": "Look, I talked to your brother yesterday and I said that the car is still broken and no"
+  },
+  {
+   "t": 19.03200000000652,
+   "kind": "partial",
+   "pt": "Look, I talked to your brother yesterday and I said that the car is still broken and no",
+   "en": "Look, I talked to your brother yesterday and I said that the car is still broken and no"
+  },
+  {
+   "t": 19.219000000040978,
+   "kind": "final",
+   "pt": "Look, I talked to your brother yesterday and I said that the car is still broken and no",
+   "en": "Look, I talked to your brother yesterday and I said that the car is still broken and no"
+  },
+  {
+   "t": 19.68800000002375,
+   "kind": "partial",
+   "pt": "but you know",
+   "en": "but you know"
+  },
+  {
+   "t": 19.68800000002375,
+   "kind": "partial",
+   "pt": "but you know",
+   "en": "but you know"
+  },
+  {
+   "t": 19.844000000040978,
+   "kind": "partial",
+   "pt": "of the other.",
+   "en": "of the other."
+  },
+  {
+   "t": 19.844000000040978,
+   "kind": "partial",
+   "pt": "of the other.",
+   "en": "of the other."
+  },
+  {
+   "t": 20.01600000000326,
+   "kind": "partial",
+   "pt": "bad news and",
+   "en": "bad news and"
+  },
+  {
+   "t": 20.01600000000326,
+   "kind": "partial",
+   "pt": "bad news and",
+   "en": "bad news and"
+  },
+  {
+   "t": 20.20400000002701,
+   "kind": "partial",
+   "pt": "bad news and it was",
+   "en": "bad news and it was"
+  },
+  {
+   "t": 20.20400000002701,
+   "kind": "partial",
+   "pt": "bad news and it was",
+   "en": "bad news and it was"
+  },
+  {
+   "t": 20.360000000044238,
+   "kind": "partial",
+   "pt": "but you know when it will",
+   "en": "but you know when it will"
+  },
+  {
+   "t": 20.360000000044238,
+   "kind": "partial",
+   "pt": "but you know when it will",
+   "en": "but you know when it will"
+  },
+  {
+   "t": 20.51600000000326,
+   "kind": "partial",
+   "pt": "but",
+   "en": "but"
+  },
+  {
+   "t": 20.51600000000326,
+   "kind": "partial",
+   "pt": "but",
+   "en": "but"
+  },
+  {
+   "t": 20.67200000002049,
+   "kind": "partial",
+   "pt": "but you know when it will be",
+   "en": "but you know when it will be"
+  },
+  {
+   "t": 20.67200000002049,
+   "kind": "partial",
+   "pt": "but you know when it will be",
+   "en": "but you know when it will be"
+  },
+  {
+   "t": 20.82900000002701,
+   "kind": "partial",
+   "pt": "but",
+   "en": "but"
+  },
+  {
+   "t": 20.82900000002701,
+   "kind": "partial",
+   "pt": "but",
+   "en": "but"
+  },
+  {
+   "t": 21.01600000000326,
+   "kind": "partial",
+   "pt": "but no, so I will be fixed",
+   "en": "but no, so I will be fixed"
+  },
+  {
+   "t": 21.01600000000326,
+   "kind": "partial",
+   "pt": "but no, so I will be fixed",
+   "en": "but no, so I will be fixed"
+  },
+  {
+   "t": 21.18800000002375,
+   "kind": "partial",
+   "pt": "but no, it will be fixed.",
+   "en": "but no, it will be fixed."
+  },
+  {
+   "t": 21.18800000002375,
+   "kind": "partial",
+   "pt": "but no, it will be fixed.",
+   "en": "but no, it will be fixed."
+  },
+  {
+   "t": 21.375,
+   "kind": "partial",
+   "pt": "but no so and it will be fixed so",
+   "en": "but no so and it will be fixed so"
+  },
+  {
+   "t": 21.375,
+   "kind": "partial",
+   "pt": "but no so and it will be fixed so",
+   "en": "but no so and it will be fixed so"
+  },
+  {
+   "t": 22.42200000002049,
+   "kind": "partial",
+   "pt": "nobody knows when it will be fixed so we",
+   "en": "nobody knows when it will be fixed so we"
+  },
+  {
+   "t": 22.42200000002049,
+   "kind": "partial",
+   "pt": "nobody knows when it will be fixed so we",
+   "en": "nobody knows when it will be fixed so we"
+  },
+  {
+   "t": 22.594000000040978,
+   "kind": "partial",
+   "pt": "but no, it will be fixed so you will probably",
+   "en": "but no, it will be fixed so you will probably"
+  },
+  {
+   "t": 22.594000000040978,
+   "kind": "partial",
+   "pt": "but no, it will be fixed so you will probably",
+   "en": "but no, it will be fixed so you will probably"
+  },
+  {
+   "t": 22.76600000000326,
+   "kind": "partial",
+   "pt": "but no one will be fixed so you probably have",
+   "en": "but no one will be fixed so you probably have"
+  },
+  {
+   "t": 22.76600000000326,
+   "kind": "partial",
+   "pt": "but no one will be fixed so you probably have",
+   "en": "but no one will be fixed so you probably have"
+  },
+  {
+   "t": 22.93800000002375,
+   "kind": "partial",
+   "pt": "but no, it will be fixed so you will probably have",
+   "en": "but no, it will be fixed so you will probably have"
+  },
+  {
+   "t": 22.93800000002375,
+   "kind": "partial",
+   "pt": "but no, it will be fixed so you will probably have",
+   "en": "but no, it will be fixed so you will probably have"
+  },
+  {
+   "t": 23.110000000044238,
+   "kind": "partial",
+   "pt": "but no, it will be fixed so you will probably have the",
+   "en": "but no, it will be fixed so you will probably have the"
+  },
+  {
+   "t": 23.110000000044238,
+   "kind": "partial",
+   "pt": "but no, it will be fixed so you will probably have the",
+   "en": "but no, it will be fixed so you will probably have the"
+  },
+  {
+   "t": 23.28200000000652,
+   "kind": "partial",
+   "pt": "but no, it will be fixed so you will probably have the other",
+   "en": "but no, it will be fixed so you will probably have the other"
+  },
+  {
+   "t": 23.28200000000652,
+   "kind": "partial",
+   "pt": "but no, it will be fixed so you will probably have the other",
+   "en": "but no, it will be fixed so you will probably have the other"
+  },
+  {
+   "t": 23.469000000040978,
+   "kind": "partial",
+   "pt": "but no, it will be fixed so you will probably have the ot",
+   "en": "but no, it will be fixed so you will probably have the ot"
+  },
+  {
+   "t": 23.469000000040978,
+   "kind": "partial",
+   "pt": "but no, it will be fixed so you will probably have the ot",
+   "en": "but no, it will be fixed so you will probably have the ot"
+  },
+  {
+   "t": 23.64100000000326,
+   "kind": "partial",
+   "pt": "but no so and it will be fixed so you will probably have to take the",
+   "en": "but no so and it will be fixed so you will probably have to take the"
+  },
+  {
+   "t": 23.64100000000326,
+   "kind": "partial",
+   "pt": "but no so and it will be fixed so you will probably have to take the",
+   "en": "but no so and it will be fixed so you will probably have to take the"
+  },
+  {
+   "t": 23.844000000040978,
+   "kind": "partial",
+   "pt": "but no, so when it will be fixed, so you will probably have to take the",
+   "en": "but no, so when it will be fixed, so you will probably have to take the"
+  },
+  {
+   "t": 23.844000000040978,
+   "kind": "partial",
+   "pt": "but no, so when it will be fixed, so you will probably have to take the",
+   "en": "but no, so when it will be fixed, so you will probably have to take the"
+  },
+  {
+   "t": 24.03200000000652,
+   "kind": "partial",
+   "pt": "but no, it will be fixed so you will probably have to take the bus",
+   "en": "but no, it will be fixed so you will probably have to take the bus"
+  },
+  {
+   "t": 24.03200000000652,
+   "kind": "partial",
+   "pt": "but no, it will be fixed so you will probably have to take the bus",
+   "en": "but no, it will be fixed so you will probably have to take the bus"
+  },
+  {
+   "t": 24.219000000040978,
+   "kind": "partial",
+   "pt": "but no one will be fixed so you will probably have to take the bus again.",
+   "en": "but no one will be fixed so you will probably have to take the bus again."
+  },
+  {
+   "t": 24.219000000040978,
+   "kind": "partial",
+   "pt": "but no one will be fixed so you will probably have to take the bus again.",
+   "en": "but no one will be fixed so you will probably have to take the bus again."
+  },
+  {
+   "t": 24.40700000000652,
+   "kind": "partial",
+   "pt": "but no, it will be fixed so you will probably have to take the bus again.",
+   "en": "but no, it will be fixed so you will probably have to take the bus again."
+  },
+  {
+   "t": 24.40700000000652,
+   "kind": "partial",
+   "pt": "but no, it will be fixed so you will probably have to take the bus again.",
+   "en": "but no, it will be fixed so you will probably have to take the bus again."
+  },
+  {
+   "t": 24.594000000040978,
+   "kind": "partial",
+   "pt": "but no one will be fixed so you will probably have to take the bus again",
+   "en": "but no one will be fixed so you will probably have to take the bus again"
+  },
+  {
+   "t": 24.594000000040978,
+   "kind": "partial",
+   "pt": "but no one will be fixed so you will probably have to take the bus again",
+   "en": "but no one will be fixed so you will probably have to take the bus again"
+  },
+  {
+   "t": 24.78200000000652,
+   "kind": "partial",
+   "pt": "but no one will be fixed so you will probably have to take the bus again next",
+   "en": "but no one will be fixed so you will probably have to take the bus again next"
+  },
+  {
+   "t": 24.78200000000652,
+   "kind": "partial",
+   "pt": "but no one will be fixed so you will probably have to take the bus again next",
+   "en": "but no one will be fixed so you will probably have to take the bus again next"
+  },
+  {
+   "t": 24.969000000040978,
+   "kind": "partial",
+   "pt": "but no, it will be fixed so you will probably have to take the bus again next",
+   "en": "but no, it will be fixed so you will probably have to take the bus again next"
+  },
+  {
+   "t": 24.969000000040978,
+   "kind": "partial",
+   "pt": "but no, it will be fixed so you will probably have to take the bus again next",
+   "en": "but no, it will be fixed so you will probably have to take the bus again next"
+  },
+  {
+   "t": 25.15700000000652,
+   "kind": "partial",
+   "pt": "but no one will be fixed so you will probably have to take the bus again next week.",
+   "en": "but no one will be fixed so you will probably have to take the bus again next week."
+  },
+  {
+   "t": 25.15700000000652,
+   "kind": "partial",
+   "pt": "but no one will be fixed so you will probably have to take the bus again next week.",
+   "en": "but no one will be fixed so you will probably have to take the bus again next week."
+  },
+  {
+   "t": 25.344000000040978,
+   "kind": "partial",
+   "pt": "but no, it will be fixed so you will probably have to take the bus again next week.",
+   "en": "but no, it will be fixed so you will probably have to take the bus again next week."
+  },
+  {
+   "t": 25.344000000040978,
+   "kind": "partial",
+   "pt": "but no, it will be fixed so you will probably have to take the bus again next week.",
+   "en": "but no, it will be fixed so you will probably have to take the bus again next week."
+  },
+  {
+   "t": 25.54700000002049,
+   "kind": "partial",
+   "pt": "but no, it will be fixed so you will probably have to take the bus again next week.",
+   "en": "but no, it will be fixed so you will probably have to take the bus again next week."
+  },
+  {
+   "t": 25.54700000002049,
+   "kind": "partial",
+   "pt": "but no, it will be fixed so you will probably have to take the bus again next week.",
+   "en": "but no, it will be fixed so you will probably have to take the bus again next week."
+  },
+  {
+   "t": 25.75,
+   "kind": "partial",
+   "pt": "but no, it will be fixed so you will probably have to take the bus again next week.",
+   "en": "but no, it will be fixed so you will probably have to take the bus again next week."
+  },
+  {
+   "t": 25.75,
+   "kind": "partial",
+   "pt": "but no, it will be fixed so you will probably have to take the bus again next week.",
+   "en": "but no, it will be fixed so you will probably have to take the bus again next week."
+  },
+  {
+   "t": 25.93800000002375,
+   "kind": "final",
+   "pt": "but no, it will be fixed so you will probably have to take the bus again next week.",
+   "en": "but no, it will be fixed so you will probably have to take the bus again next week."
+  },
+  {
+   "t": 27.125,
+   "kind": "partial",
+   "pt": "First.",
+   "en": "First."
+  },
+  {
+   "t": 27.125,
+   "kind": "partial",
+   "pt": "First.",
+   "en": "First."
+  },
+  {
+   "t": 27.28200000000652,
+   "kind": "partial",
+   "pt": "Five.",
+   "en": "Five."
+  },
+  {
+   "t": 27.28200000000652,
+   "kind": "partial",
+   "pt": "Five.",
+   "en": "Five."
+  },
+  {
+   "t": 27.43800000002375,
+   "kind": "partial",
+   "pt": "Fine.",
+   "en": "Fine."
+  },
+  {
+   "t": 27.43800000002375,
+   "kind": "partial",
+   "pt": "Fine.",
+   "en": "Fine."
+  },
+  {
+   "t": 27.594000000040978,
+   "kind": "partial",
+   "pt": "Fine.",
+   "en": "Fine."
+  },
+  {
+   "t": 27.594000000040978,
+   "kind": "partial",
+   "pt": "Fine.",
+   "en": "Fine."
+  },
+  {
+   "t": 27.735000000044238,
+   "kind": "partial",
+   "pt": "Fine.",
+   "en": "Fine."
+  },
+  {
+   "t": 27.735000000044238,
+   "kind": "partial",
+   "pt": "Fine.",
+   "en": "Fine."
+  },
+  {
+   "t": 27.89100000000326,
+   "kind": "final",
+   "pt": "Fine.",
+   "en": "Fine."
+  },
+  {
+   "t": 28.39100000000326,
+   "kind": "partial",
+   "pt": "No",
+   "en": "No"
+  },
+  {
+   "t": 28.39100000000326,
+   "kind": "partial",
+   "pt": "No",
+   "en": "No"
+  },
+  {
+   "t": 28.54700000002049,
+   "kind": "partial",
+   "pt": "Li.",
+   "en": "Li."
+  },
+  {
+   "t": 28.54700000002049,
+   "kind": "partial",
+   "pt": "Li.",
+   "en": "Li."
+  },
+  {
+   "t": 28.70400000002701,
+   "kind": "partial",
+   "pt": "Let's",
+   "en": "Let's"
+  },
+  {
+   "t": 28.70400000002701,
+   "kind": "partial",
+   "pt": "Let's",
+   "en": "Let's"
+  },
+  {
+   "t": 28.844000000040978,
+   "kind": "partial",
+   "pt": "Glitz Jill.",
+   "en": "Glitz Jill."
+  },
+  {
+   "t": 28.844000000040978,
+   "kind": "partial",
+   "pt": "Glitz Jill.",
+   "en": "Glitz Jill."
+  },
+  {
+   "t": 29.0,
+   "kind": "partial",
+   "pt": "Let's go.",
+   "en": "Let's go."
+  },
+  {
+   "t": 29.0,
+   "kind": "partial",
+   "pt": "Let's go.",
+   "en": "Let's go."
+  },
+  {
+   "t": 29.15700000000652,
+   "kind": "partial",
+   "pt": "Let's go.",
+   "en": "Let's go."
+  },
+  {
+   "t": 29.15700000000652,
+   "kind": "partial",
+   "pt": "Let's go.",
+   "en": "Let's go."
+  },
+  {
+   "t": 29.31300000002375,
+   "kind": "partial",
+   "pt": "Let's go.",
+   "en": "Let's go."
+  },
+  {
+   "t": 29.31300000002375,
+   "kind": "partial",
+   "pt": "Let's go.",
+   "en": "Let's go."
+  },
+  {
+   "t": 29.469000000040978,
+   "kind": "final",
+   "pt": "Let's go.",
+   "en": "Let's go."
+  },
+  {
+   "t": 30.485000000044238,
+   "kind": "partial",
+   "pt": "We have a great day.",
+   "en": "We have a great day."
+  },
+  {
+   "t": 30.485000000044238,
+   "kind": "partial",
+   "pt": "We have a great day.",
+   "en": "We have a great day."
+  },
+  {
+   "t": 30.64100000000326,
+   "kind": "partial",
+   "pt": "We have",
+   "en": "We have"
+  },
+  {
+   "t": 30.64100000000326,
+   "kind": "partial",
+   "pt": "We have",
+   "en": "We have"
+  },
+  {
+   "t": 30.79700000002049,
+   "kind": "partial",
+   "pt": "Where do you?",
+   "en": "Where do you?"
+  },
+  {
+   "t": 30.79700000002049,
+   "kind": "partial",
+   "pt": "Where do you?",
+   "en": "Where do you?"
+  },
+  {
+   "t": 30.93800000002375,
+   "kind": "partial",
+   "pt": "Where did",
+   "en": "Where did"
+  },
+  {
+   "t": 30.93800000002375,
+   "kind": "partial",
+   "pt": "Where did",
+   "en": "Where did"
+  },
+  {
+   "t": 31.094000000040978,
+   "kind": "partial",
+   "pt": "Where did you?",
+   "en": "Where did you?"
+  },
+  {
+   "t": 31.094000000040978,
+   "kind": "partial",
+   "pt": "Where did you?",
+   "en": "Where did you?"
+  },
+  {
+   "t": 31.25,
+   "kind": "partial",
+   "pt": "Where did you?",
+   "en": "Where did you?"
+  },
+  {
+   "t": 31.25,
+   "kind": "partial",
+   "pt": "Where did you?",
+   "en": "Where did you?"
+  },
+  {
+   "t": 31.40700000000652,
+   "kind": "partial",
+   "pt": "Where did you put?",
+   "en": "Where did you put?"
+  },
+  {
+   "t": 31.40700000000652,
+   "kind": "partial",
+   "pt": "Where did you put?",
+   "en": "Where did you put?"
+  },
+  {
+   "t": 31.56300000002375,
+   "kind": "partial",
+   "pt": "Where did you put this?",
+   "en": "Where did you put this?"
+  },
+  {
+   "t": 31.56300000002375,
+   "kind": "partial",
+   "pt": "Where did you put this?",
+   "en": "Where did you put this?"
+  },
+  {
+   "t": 31.719000000040978,
+   "kind": "partial",
+   "pt": "Where did you put the",
+   "en": "Where did you put the"
+  },
+  {
+   "t": 31.719000000040978,
+   "kind": "partial",
+   "pt": "Where did you put the",
+   "en": "Where did you put the"
+  },
+  {
+   "t": 31.875,
+   "kind": "partial",
+   "pt": "Where did you put the key?",
+   "en": "Where did you put the key?"
+  },
+  {
+   "t": 31.875,
+   "kind": "partial",
+   "pt": "Where did you put the key?",
+   "en": "Where did you put the key?"
+  },
+  {
+   "t": 32.03200000000652,
+   "kind": "partial",
+   "pt": "Where did you put the key?",
+   "en": "Where did you put the key?"
+  },
+  {
+   "t": 32.03200000000652,
+   "kind": "partial",
+   "pt": "Where did you put the key?",
+   "en": "Where did you put the key?"
+  },
+  {
+   "t": 32.18800000002375,
+   "kind": "partial",
+   "pt": "Where did you put the case?",
+   "en": "Where did you put the case?"
+  },
+  {
+   "t": 32.18800000002375,
+   "kind": "partial",
+   "pt": "Where did you put the case?",
+   "en": "Where did you put the case?"
+  },
+  {
+   "t": 32.34400000004098,
+   "kind": "partial",
+   "pt": "Where did you put the keys?",
+   "en": "Where did you put the keys?"
+  },
+  {
+   "t": 32.34400000004098,
+   "kind": "partial",
+   "pt": "Where did you put the keys?",
+   "en": "Where did you put the keys?"
+  },
+  {
+   "t": 32.53200000000652,
+   "kind": "partial",
+   "pt": "Where did you put the keys?",
+   "en": "Where did you put the keys?"
+  },
+  {
+   "t": 32.53200000000652,
+   "kind": "partial",
+   "pt": "Where did you put the keys?",
+   "en": "Where did you put the keys?"
+  },
+  {
+   "t": 32.68800000002375,
+   "kind": "final",
+   "pt": "Where did you put the keys?",
+   "en": "Where did you put the keys?"
+  },
+  {
+   "t": 33.28200000000652,
+   "kind": "partial",
+   "pt": "No.",
+   "en": "No."
+  },
+  {
+   "t": 33.28200000000652,
+   "kind": "partial",
+   "pt": "No.",
+   "en": "No."
+  },
+  {
+   "t": 33.42200000002049,
+   "kind": "partial",
+   "pt": "The",
+   "en": "The"
+  },
+  {
+   "t": 33.42200000002049,
+   "kind": "partial",
+   "pt": "The",
+   "en": "The"
+  },
+  {
+   "t": 33.57900000002701,
+   "kind": "partial",
+   "pt": "the",
+   "en": "the"
+  },
+  {
+   "t": 33.57900000002701,
+   "kind": "partial",
+   "pt": "the",
+   "en": "the"
+  },
+  {
+   "t": 33.73500000004424,
+   "kind": "partial",
+   "pt": "The year.",
+   "en": "The year."
+  },
+  {
+   "t": 33.73500000004424,
+   "kind": "partial",
+   "pt": "The year.",
+   "en": "The year."
+  },
+  {
+   "t": 33.89100000000326,
+   "kind": "partial",
+   "pt": "Did you arrive?",
+   "en": "Did you arrive?"
+  },
+  {
+   "t": 33.89100000000326,
+   "kind": "partial",
+   "pt": "Did you arrive?",
+   "en": "Did you arrive?"
+  },
+  {
+   "t": 34.06300000002375,
+   "kind": "partial",
+   "pt": "Do you write?",
+   "en": "Do you write?"
+  },
+  {
+   "t": 34.06300000002375,
+   "kind": "partial",
+   "pt": "Do you write?",
+   "en": "Do you write?"
+  },
+  {
+   "t": 34.23500000004424,
+   "kind": "partial",
+   "pt": "They were right here",
+   "en": "They were right here"
+  },
+  {
+   "t": 34.23500000004424,
+   "kind": "partial",
+   "pt": "They were right here",
+   "en": "They were right here"
+  },
+  {
+   "t": 34.40700000000652,
+   "kind": "partial",
+   "pt": "They were right here on",
+   "en": "They were right here on"
+  },
+  {
+   "t": 34.40700000000652,
+   "kind": "partial",
+   "pt": "They were right here on",
+   "en": "They were right here on"
+  },
+  {
+   "t": 34.56300000002375,
+   "kind": "partial",
+   "pt": "They were right here on",
+   "en": "They were right here on"
+  },
+  {
+   "t": 34.56300000002375,
+   "kind": "partial",
+   "pt": "They were right here on",
+   "en": "They were right here on"
+  },
+  {
+   "t": 34.73500000004424,
+   "kind": "partial",
+   "pt": "They were right here on the",
+   "en": "They were right here on the"
+  },
+  {
+   "t": 34.73500000004424,
+   "kind": "partial",
+   "pt": "They were right here on the",
+   "en": "They were right here on the"
+  },
+  {
+   "t": 34.90700000000652,
+   "kind": "partial",
+   "pt": "They were right here on the table",
+   "en": "They were right here on the table"
+  },
+  {
+   "t": 34.90700000000652,
+   "kind": "partial",
+   "pt": "They were right here on the table",
+   "en": "They were right here on the table"
+  },
+  {
+   "t": 35.06300000002375,
+   "kind": "partial",
+   "pt": "Do you write here on the table?",
+   "en": "Do you write here on the table?"
+  },
+  {
+   "t": 35.06300000002375,
+   "kind": "partial",
+   "pt": "Do you write here on the table?",
+   "en": "Do you write here on the table?"
+  },
+  {
+   "t": 35.23500000004424,
+   "kind": "partial",
+   "pt": "They were right here on the table",
+   "en": "They were right here on the table"
+  },
+  {
+   "t": 35.23500000004424,
+   "kind": "partial",
+   "pt": "They were right here on the table",
+   "en": "They were right here on the table"
+  },
+  {
+   "t": 35.40700000000652,
+   "kind": "partial",
+   "pt": "They were right here on the table",
+   "en": "They were right here on the table"
+  },
+  {
+   "t": 35.40700000000652,
+   "kind": "partial",
+   "pt": "They were right here on the table",
+   "en": "They were right here on the table"
+  },
+  {
+   "t": 35.56300000002375,
+   "kind": "partial",
+   "pt": "They were right here on the table,",
+   "en": "They were right here on the table,"
+  },
+  {
+   "t": 35.56300000002375,
+   "kind": "partial",
+   "pt": "They were right here on the table,",
+   "en": "They were right here on the table,"
+  },
+  {
+   "t": 35.73500000004424,
+   "kind": "partial",
+   "pt": "They were right here on the table a minute",
+   "en": "They were right here on the table a minute"
+  },
+  {
+   "t": 35.73500000004424,
+   "kind": "partial",
+   "pt": "They were right here on the table a minute",
+   "en": "They were right here on the table a minute"
+  },
+  {
+   "t": 35.89100000000326,
+   "kind": "partial",
+   "pt": "They were right here on the table a minute ago",
+   "en": "They were right here on the table a minute ago"
+  },
+  {
+   "t": 35.89100000000326,
+   "kind": "partial",
+   "pt": "They were right here on the table a minute ago",
+   "en": "They were right here on the table a minute ago"
+  },
+  {
+   "t": 36.06300000002375,
+   "kind": "partial",
+   "pt": "They were right here on the table a minute ago",
+   "en": "They were right here on the table a minute ago"
+  },
+  {
+   "t": 36.06300000002375,
+   "kind": "partial",
+   "pt": "They were right here on the table a minute ago",
+   "en": "They were right here on the table a minute ago"
+  },
+  {
+   "t": 36.23500000004424,
+   "kind": "partial",
+   "pt": "They were right here on the table a minute ago.",
+   "en": "They were right here on the table a minute ago."
+  },
+  {
+   "t": 36.23500000004424,
+   "kind": "partial",
+   "pt": "They were right here on the table a minute ago.",
+   "en": "They were right here on the table a minute ago."
+  },
+  {
+   "t": 36.40700000000652,
+   "kind": "partial",
+   "pt": "They were right here on the table a minute ago",
+   "en": "They were right here on the table a minute ago"
+  },
+  {
+   "t": 36.40700000000652,
+   "kind": "partial",
+   "pt": "They were right here on the table a minute ago",
+   "en": "They were right here on the table a minute ago"
+  },
+  {
+   "t": 36.57900000002701,
+   "kind": "partial",
+   "pt": "They were right here on the table a minute agosto.",
+   "en": "They were right here on the table a minute agosto."
+  },
+  {
+   "t": 36.57900000002701,
+   "kind": "partial",
+   "pt": "They were right here on the table a minute agosto.",
+   "en": "They were right here on the table a minute agosto."
+  },
+  {
+   "t": 36.75,
+   "kind": "partial",
+   "pt": "They were right here on the table a minute ago.",
+   "en": "They were right here on the table a minute ago."
+  },
+  {
+   "t": 36.75,
+   "kind": "partial",
+   "pt": "They were right here on the table a minute ago.",
+   "en": "They were right here on the table a minute ago."
+  },
+  {
+   "t": 36.92200000002049,
+   "kind": "final",
+   "pt": "They were right here on the table a minute ago.",
+   "en": "They were right here on the table a minute ago."
+  },
+  {
+   "t": 38.29700000002049,
+   "kind": "partial",
+   "pt": "He was right.",
+   "en": "He was right."
+  },
+  {
+   "t": 38.29700000002049,
+   "kind": "partial",
+   "pt": "He was right.",
+   "en": "He was right."
+  },
+  {
+   "t": 38.43800000002375,
+   "kind": "partial",
+   "pt": "June.",
+   "en": "June."
+  },
+  {
+   "t": 38.43800000002375,
+   "kind": "partial",
+   "pt": "June.",
+   "en": "June."
+  },
+  {
+   "t": 38.59400000004098,
+   "kind": "partial",
+   "pt": "You'll never.",
+   "en": "You'll never."
+  },
+  {
+   "t": 38.59400000004098,
+   "kind": "partial",
+   "pt": "You'll never.",
+   "en": "You'll never."
+  },
+  {
+   "t": 38.75,
+   "kind": "partial",
+   "pt": "You'll never",
+   "en": "You'll never"
+  },
+  {
+   "t": 38.75,
+   "kind": "partial",
+   "pt": "You'll never",
+   "en": "You'll never"
+  },
+  {
+   "t": 38.90700000000652,
+   "kind": "partial",
+   "pt": "You'll never leave.",
+   "en": "You'll never leave."
+  },
+  {
+   "t": 38.90700000000652,
+   "kind": "partial",
+   "pt": "You'll never leave.",
+   "en": "You'll never leave."
+  },
+  {
+   "t": 39.07900000002701,
+   "kind": "partial",
+   "pt": "You'll never listen.",
+   "en": "You'll never listen."
+  },
+  {
+   "t": 39.07900000002701,
+   "kind": "partial",
+   "pt": "You'll never listen.",
+   "en": "You'll never listen."
+  },
+  {
+   "t": 39.23500000004424,
+   "kind": "partial",
+   "pt": "You'll never listen.",
+   "en": "You'll never listen."
+  },
+  {
+   "t": 39.23500000004424,
+   "kind": "partial",
+   "pt": "You'll never listen.",
+   "en": "You'll never listen."
+  },
+  {
+   "t": 39.39100000000326,
+   "kind": "partial",
+   "pt": "You'll never listen to me.",
+   "en": "You'll never listen to me."
+  },
+  {
+   "t": 39.39100000000326,
+   "kind": "partial",
+   "pt": "You'll never listen to me.",
+   "en": "You'll never listen to me."
+  },
+  {
+   "t": 39.54700000002049,
+   "kind": "partial",
+   "pt": "You'll never listen to all of them.",
+   "en": "You'll never listen to all of them."
+  },
+  {
+   "t": 39.54700000002049,
+   "kind": "partial",
+   "pt": "You'll never listen to all of them.",
+   "en": "You'll never listen to all of them."
+  },
+  {
+   "t": 39.71900000004098,
+   "kind": "partial",
+   "pt": "You'll never listen to me.",
+   "en": "You'll never listen to me."
+  },
+  {
+   "t": 39.71900000004098,
+   "kind": "partial",
+   "pt": "You'll never listen to me.",
+   "en": "You'll never listen to me."
+  },
+  {
+   "t": 39.875,
+   "kind": "partial",
+   "pt": "You'll never listen to me.",
+   "en": "You'll never listen to me."
+  },
+  {
+   "t": 39.875,
+   "kind": "partial",
+   "pt": "You'll never listen to me.",
+   "en": "You'll never listen to me."
+  },
+  {
+   "t": 40.03200000000652,
+   "kind": "partial",
+   "pt": "You'll never listen to me.",
+   "en": "You'll never listen to me."
+  },
+  {
+   "t": 40.03200000000652,
+   "kind": "partial",
+   "pt": "You'll never listen to me.",
+   "en": "You'll never listen to me."
+  },
+  {
+   "t": 40.20400000002701,
+   "kind": "partial",
+   "pt": "You'll never listen to me.",
+   "en": "You'll never listen to me."
+  },
+  {
+   "t": 40.20400000002701,
+   "kind": "partial",
+   "pt": "You'll never listen to me.",
+   "en": "You'll never listen to me."
+  },
+  {
+   "t": 40.375,
+   "kind": "partial",
+   "pt": "You'll never listen to me,",
+   "en": "You'll never listen to me,"
+  },
+  {
+   "t": 40.375,
+   "kind": "partial",
+   "pt": "You'll never listen to me,",
+   "en": "You'll never listen to me,"
+  },
+  {
+   "t": 40.53200000000652,
+   "kind": "partial",
+   "pt": "You never listened on me, that's",
+   "en": "You never listened on me, that's"
+  },
+  {
+   "t": 40.53200000000652,
+   "kind": "partial",
+   "pt": "You never listened on me, that's",
+   "en": "You never listened on me, that's"
+  },
+  {
+   "t": 40.70400000002701,
+   "kind": "partial",
+   "pt": "You never listened on me, that's the",
+   "en": "You never listened on me, that's the"
+  },
+  {
+   "t": 40.70400000002701,
+   "kind": "partial",
+   "pt": "You never listened on me, that's the",
+   "en": "You never listened on me, that's the"
+  },
+  {
+   "t": 40.89100000000326,
+   "kind": "partial",
+   "pt": "You never listened on me, that's the problem.",
+   "en": "You never listened on me, that's the problem."
+  },
+  {
+   "t": 40.89100000000326,
+   "kind": "partial",
+   "pt": "You never listened on me, that's the problem.",
+   "en": "You never listened on me, that's the problem."
+  },
+  {
+   "t": 41.06300000002375,
+   "kind": "partial",
+   "pt": "You never listen to me, that's the problem.",
+   "en": "You never listen to me, that's the problem."
+  },
+  {
+   "t": 41.06300000002375,
+   "kind": "partial",
+   "pt": "You never listen to me, that's the problem.",
+   "en": "You never listen to me, that's the problem."
+  },
+  {
+   "t": 41.23500000004424,
+   "kind": "partial",
+   "pt": "You never listened on me, that's the problem.",
+   "en": "You never listened on me, that's the problem."
+  },
+  {
+   "t": 41.23500000004424,
+   "kind": "partial",
+   "pt": "You never listened on me, that's the problem.",
+   "en": "You never listened on me, that's the problem."
+  },
+  {
+   "t": 41.40700000000652,
+   "kind": "partial",
+   "pt": "You never listened to me, that's the problem.",
+   "en": "You never listened to me, that's the problem."
+  },
+  {
+   "t": 41.40700000000652,
+   "kind": "partial",
+   "pt": "You never listened to me, that's the problem.",
+   "en": "You never listened to me, that's the problem."
+  },
+  {
+   "t": 41.57900000002701,
+   "kind": "partial",
+   "pt": "You never listened to me, that's the problem.",
+   "en": "You never listened to me, that's the problem."
+  },
+  {
+   "t": 41.57900000002701,
+   "kind": "partial",
+   "pt": "You never listened to me, that's the problem.",
+   "en": "You never listened to me, that's the problem."
+  },
+  {
+   "t": 41.75,
+   "kind": "final",
+   "pt": "You never listened to me, that's the problem.",
+   "en": "You never listened to me, that's the problem."
+  },
+  {
+   "t": 42.56300000002375,
+   "kind": "partial",
+   "pt": "Well,",
+   "en": "Well,"
+  },
+  {
+   "t": 42.56300000002375,
+   "kind": "partial",
+   "pt": "Well,",
+   "en": "Well,"
+  },
+  {
+   "t": 42.71900000004098,
+   "kind": "partial",
+   "pt": "Oh.",
+   "en": "Oh."
+  },
+  {
+   "t": 42.71900000004098,
+   "kind": "partial",
+   "pt": "Oh.",
+   "en": "Oh."
+  },
+  {
+   "t": 42.86000000004424,
+   "kind": "partial",
+   "pt": "Okay.",
+   "en": "Okay."
+  },
+  {
+   "t": 42.86000000004424,
+   "kind": "partial",
+   "pt": "Okay.",
+   "en": "Okay."
+  },
+  {
+   "t": 43.01600000000326,
+   "kind": "partial",
+   "pt": "Okay.",
+   "en": "Okay."
+  },
+  {
+   "t": 43.01600000000326,
+   "kind": "partial",
+   "pt": "Okay.",
+   "en": "Okay."
+  },
+  {
+   "t": 43.17200000002049,
+   "kind": "partial",
+   "pt": "Okay.",
+   "en": "Okay."
+  },
+  {
+   "t": 43.17200000002049,
+   "kind": "partial",
+   "pt": "Okay.",
+   "en": "Okay."
+  },
+  {
+   "t": 43.32900000002701,
+   "kind": "partial",
+   "pt": "Okay.",
+   "en": "Okay."
+  },
+  {
+   "t": 43.32900000002701,
+   "kind": "partial",
+   "pt": "Okay.",
+   "en": "Okay."
+  },
+  {
+   "t": 43.48500000004424,
+   "kind": "partial",
+   "pt": "Okay.",
+   "en": "Okay."
+  },
+  {
+   "t": 43.48500000004424,
+   "kind": "partial",
+   "pt": "Okay.",
+   "en": "Okay."
+  },
+  {
+   "t": 43.64100000000326,
+   "kind": "partial",
+   "pt": "Okay, okay.",
+   "en": "Okay, okay."
+  },
+  {
+   "t": 43.64100000000326,
+   "kind": "partial",
+   "pt": "Okay, okay.",
+   "en": "Okay, okay."
+  },
+  {
+   "t": 43.81300000002375,
+   "kind": "partial",
+   "pt": "Okay, okay.",
+   "en": "Okay, okay."
+  },
+  {
+   "t": 43.81300000002375,
+   "kind": "partial",
+   "pt": "Okay, okay.",
+   "en": "Okay, okay."
+  },
+  {
+   "t": 43.96900000004098,
+   "kind": "partial",
+   "pt": "Okay, okay.",
+   "en": "Okay, okay."
+  },
+  {
+   "t": 43.96900000004098,
+   "kind": "partial",
+   "pt": "Okay, okay.",
+   "en": "Okay, okay."
+  },
+  {
+   "t": 44.125,
+   "kind": "partial",
+   "pt": "Okay, okay.",
+   "en": "Okay, okay."
+  },
+  {
+   "t": 44.125,
+   "kind": "partial",
+   "pt": "Okay, okay.",
+   "en": "Okay, okay."
+  },
+  {
+   "t": 44.28200000000652,
+   "kind": "partial",
+   "pt": "Okay, okay.",
+   "en": "Okay, okay."
+  },
+  {
+   "t": 44.28200000000652,
+   "kind": "partial",
+   "pt": "Okay, okay.",
+   "en": "Okay, okay."
+  },
+  {
+   "t": 44.45400000002701,
+   "kind": "partial",
+   "pt": "Okay, okay, yeah.",
+   "en": "Okay, okay, yeah."
+  },
+  {
+   "t": 44.45400000002701,
+   "kind": "partial",
+   "pt": "Okay, okay, yeah.",
+   "en": "Okay, okay, yeah."
+  },
+  {
+   "t": 44.61000000004424,
+   "kind": "partial",
+   "pt": "Okay, okay, I'm sorry.",
+   "en": "Okay, okay, I'm sorry."
+  },
+  {
+   "t": 44.61000000004424,
+   "kind": "partial",
+   "pt": "Okay, okay, I'm sorry.",
+   "en": "Okay, okay, I'm sorry."
+  },
+  {
+   "t": 44.78200000000652,
+   "kind": "partial",
+   "pt": "Okay, okay, I'm sorry.",
+   "en": "Okay, okay, I'm sorry."
+  },
+  {
+   "t": 44.78200000000652,
+   "kind": "partial",
+   "pt": "Okay, okay, I'm sorry.",
+   "en": "Okay, okay, I'm sorry."
+  },
+  {
+   "t": 44.96900000004098,
+   "kind": "partial",
+   "pt": "Okay, okay, I'm sorry.",
+   "en": "Okay, okay, I'm sorry."
+  },
+  {
+   "t": 44.96900000004098,
+   "kind": "partial",
+   "pt": "Okay, okay, I'm sorry.",
+   "en": "Okay, okay, I'm sorry."
+  },
+  {
+   "t": 45.125,
+   "kind": "partial",
+   "pt": "Okay, okay, sorry.",
+   "en": "Okay, okay, sorry."
+  },
+  {
+   "t": 45.125,
+   "kind": "partial",
+   "pt": "Okay, okay, sorry.",
+   "en": "Okay, okay, sorry."
+  },
+  {
+   "t": 45.29700000002049,
+   "kind": "partial",
+   "pt": "Okay, okay, I'm sorry.",
+   "en": "Okay, okay, I'm sorry."
+  },
+  {
+   "t": 45.29700000002049,
+   "kind": "partial",
+   "pt": "Okay, okay, I'm sorry.",
+   "en": "Okay, okay, I'm sorry."
+  },
+  {
+   "t": 45.46900000004098,
+   "kind": "partial",
+   "pt": "Okay, okay, sorry.",
+   "en": "Okay, okay, sorry."
+  },
+  {
+   "t": 45.46900000004098,
+   "kind": "partial",
+   "pt": "Okay, okay, sorry.",
+   "en": "Okay, okay, sorry."
+  },
+  {
+   "t": 45.625,
+   "kind": "partial",
+   "pt": "Okay, okay, sorry, you will.",
+   "en": "Okay, okay, sorry, you will."
+  },
+  {
+   "t": 45.625,
+   "kind": "partial",
+   "pt": "Okay, okay, sorry, you will.",
+   "en": "Okay, okay, sorry, you will."
+  },
+  {
+   "t": 45.79700000002049,
+   "kind": "partial",
+   "pt": "Okay, okay, sorry, you will.",
+   "en": "Okay, okay, sorry, you will."
+  },
+  {
+   "t": 45.79700000002049,
+   "kind": "partial",
+   "pt": "Okay, okay, sorry, you will.",
+   "en": "Okay, okay, sorry, you will."
+  },
+  {
+   "t": 45.96900000004098,
+   "kind": "partial",
+   "pt": "Okay, okay, sorry, you will call.",
+   "en": "Okay, okay, sorry, you will call."
+  },
+  {
+   "t": 45.96900000004098,
+   "kind": "partial",
+   "pt": "Okay, okay, sorry, you will call.",
+   "en": "Okay, okay, sorry, you will call."
+  },
+  {
+   "t": 46.14100000000326,
+   "kind": "partial",
+   "pt": "Okay, okay, I'm sorry, you will call the",
+   "en": "Okay, okay, I'm sorry, you will call the"
+  },
+  {
+   "t": 46.14100000000326,
+   "kind": "partial",
+   "pt": "Okay, okay, I'm sorry, you will call the",
+   "en": "Okay, okay, I'm sorry, you will call the"
+  },
+  {
+   "t": 46.32900000002701,
+   "kind": "partial",
+   "pt": "Okay, okay, I'm sorry, you will call them.",
+   "en": "Okay, okay, I'm sorry, you will call them."
+  },
+  {
+   "t": 46.32900000002701,
+   "kind": "partial",
+   "pt": "Okay, okay, I'm sorry, you will call them.",
+   "en": "Okay, okay, I'm sorry, you will call them."
+  },
+  {
+   "t": 46.5,
+   "kind": "partial",
+   "pt": "Okay, okay, I'm sorry, you will call them.",
+   "en": "Okay, okay, I'm sorry, you will call them."
+  },
+  {
+   "t": 46.5,
+   "kind": "partial",
+   "pt": "Okay, okay, I'm sorry, you will call them.",
+   "en": "Okay, okay, I'm sorry, you will call them."
+  },
+  {
+   "t": 46.68800000002375,
+   "kind": "partial",
+   "pt": "Okay, okay, I'm sorry, you will call them a canine.",
+   "en": "Okay, okay, I'm sorry, you will call them a canine."
+  },
+  {
+   "t": 46.68800000002375,
+   "kind": "partial",
+   "pt": "Okay, okay, I'm sorry, you will call them a canine.",
+   "en": "Okay, okay, I'm sorry, you will call them a canine."
+  },
+  {
+   "t": 46.875,
+   "kind": "partial",
+   "pt": "Okay, okay, I'm sorry, you will call the mechanic.",
+   "en": "Okay, okay, I'm sorry, you will call the mechanic."
+  },
+  {
+   "t": 46.875,
+   "kind": "partial",
+   "pt": "Okay, okay, I'm sorry, you will call the mechanic.",
+   "en": "Okay, okay, I'm sorry, you will call the mechanic."
+  },
+  {
+   "t": 47.04700000002049,
+   "kind": "partial",
+   "pt": "Okay, okay, I'm sorry, you will call the mechanic.",
+   "en": "Okay, okay, I'm sorry, you will call the mechanic."
+  },
+  {
+   "t": 47.04700000002049,
+   "kind": "partial",
+   "pt": "Okay, okay, I'm sorry, you will call the mechanic.",
+   "en": "Okay, okay, I'm sorry, you will call the mechanic."
+  },
+  {
+   "t": 47.25,
+   "kind": "partial",
+   "pt": "Okay, okay, I'm sorry, you will call the mechanic fast.",
+   "en": "Okay, okay, I'm sorry, you will call the mechanic fast."
+  },
+  {
+   "t": 47.25,
+   "kind": "partial",
+   "pt": "Okay, okay, I'm sorry, you will call the mechanic fast.",
+   "en": "Okay, okay, I'm sorry, you will call the mechanic fast."
+  },
+  {
+   "t": 47.42200000002049,
+   "kind": "partial",
+   "pt": "Okay, okay, I'm sorry, you will call the mechanic first.",
+   "en": "Okay, okay, I'm sorry, you will call the mechanic first."
+  },
+  {
+   "t": 47.42200000002049,
+   "kind": "partial",
+   "pt": "Okay, okay, I'm sorry, you will call the mechanic first.",
+   "en": "Okay, okay, I'm sorry, you will call the mechanic first."
+  },
+  {
+   "t": 47.61000000004424,
+   "kind": "partial",
+   "pt": "Okay, okay, I'm sorry, you will call the mechanic first fit",
+   "en": "Okay, okay, I'm sorry, you will call the mechanic first fit"
+  },
+  {
+   "t": 47.61000000004424,
+   "kind": "partial",
+   "pt": "Okay, okay, I'm sorry, you will call the mechanic first fit",
+   "en": "Okay, okay, I'm sorry, you will call the mechanic first fit"
+  },
+  {
+   "t": 47.81300000002375,
+   "kind": "partial",
+   "pt": "Okay, okay, I'm sorry, you will call the mechanic first fit a mask.",
+   "en": "Okay, okay, I'm sorry, you will call the mechanic first fit a mask."
+  },
+  {
+   "t": 47.81300000002375,
+   "kind": "partial",
+   "pt": "Okay, okay, I'm sorry, you will call the mechanic first fit a mask.",
+   "en": "Okay, okay, I'm sorry, you will call the mechanic first fit a mask."
+  },
+  {
+   "t": 48.0,
+   "kind": "partial",
+   "pt": "Okay, okay, I'm sorry, you will call the mechanic first for tomorrow.",
+   "en": "Okay, okay, I'm sorry, you will call the mechanic first for tomorrow."
+  },
+  {
+   "t": 48.0,
+   "kind": "partial",
+   "pt": "Okay, okay, I'm sorry, you will call the mechanic first for tomorrow.",
+   "en": "Okay, okay, I'm sorry, you will call the mechanic first for tomorrow."
+  },
+  {
+   "t": 48.20400000002701,
+   "kind": "partial",
+   "pt": "Okay, okay, I'm sorry, you will call the mechanic first fit a maro in.",
+   "en": "Okay, okay, I'm sorry, you will call the mechanic first fit a maro in."
+  },
+  {
+   "t": 48.20400000002701,
+   "kind": "partial",
+   "pt": "Okay, okay, I'm sorry, you will call the mechanic first fit a maro in.",
+   "en": "Okay, okay, I'm sorry, you will call the mechanic first fit a maro in."
+  },
+  {
+   "t": 48.39100000000326,
+   "kind": "partial",
+   "pt": "Okay, okay, I'm sorry, you will call the mechanic first fit a maro end.",
+   "en": "Okay, okay, I'm sorry, you will call the mechanic first fit a maro end."
+  },
+  {
+   "t": 48.39100000000326,
+   "kind": "partial",
+   "pt": "Okay, okay, I'm sorry, you will call the mechanic first fit a maro end.",
+   "en": "Okay, okay, I'm sorry, you will call the mechanic first fit a maro end."
+  },
+  {
+   "t": 48.59400000004098,
+   "kind": "partial",
+   "pt": "Okay, okay, I'm sorry, you will call the mechanic first fit a maro and yes.",
+   "en": "Okay, okay, I'm sorry, you will call the mechanic first fit a maro and yes."
+  },
+  {
+   "t": 48.59400000004098,
+   "kind": "partial",
+   "pt": "Okay, okay, I'm sorry, you will call the mechanic first fit a maro and yes.",
+   "en": "Okay, okay, I'm sorry, you will call the mechanic first fit a maro and yes."
+  },
+  {
+   "t": 48.79700000002049,
+   "kind": "partial",
+   "pt": "Okay, okay, I'm sorry, you will call the mechanic first fit a maro and ask.",
+   "en": "Okay, okay, I'm sorry, you will call the mechanic first fit a maro and ask."
+  },
+  {
+   "t": 48.79700000002049,
+   "kind": "partial",
+   "pt": "Okay, okay, I'm sorry, you will call the mechanic first fit a maro and ask.",
+   "en": "Okay, okay, I'm sorry, you will call the mechanic first fit a maro and ask."
+  },
+  {
+   "t": 49.0,
+   "kind": "partial",
+   "pt": "Okay, okay, I'm sorry, you will call the mechanic first fit a maro and ask him.",
+   "en": "Okay, okay, I'm sorry, you will call the mechanic first fit a maro and ask him."
+  },
+  {
+   "t": 49.0,
+   "kind": "partial",
+   "pt": "Okay, okay, I'm sorry, you will call the mechanic first fit a maro and ask him.",
+   "en": "Okay, okay, I'm sorry, you will call the mechanic first fit a maro and ask him."
+  },
+  {
+   "t": 49.20400000002701,
+   "kind": "partial",
+   "pt": "Okay, okay, I'm sorry, you will call the mechanic first fit a maro and ask him how to do it.",
+   "en": "Okay, okay, I'm sorry, you will call the mechanic first fit a maro and ask him how to do it."
+  },
+  {
+   "t": 49.20400000002701,
+   "kind": "partial",
+   "pt": "Okay, okay, I'm sorry, you will call the mechanic first fit a maro and ask him how to do it.",
+   "en": "Okay, okay, I'm sorry, you will call the mechanic first fit a maro and ask him how to do it."
+  },
+  {
+   "t": 49.40700000000652,
+   "kind": "final",
+   "pt": "Okay, okay, I'm sorry, you will call the mechanic first fit a maro and ask him how much.",
+   "en": "Okay, okay, I'm sorry, you will call the mechanic first fit a maro and ask him how much."
+  },
+  {
+   "t": 49.89100000000326,
+   "kind": "partial",
+   "pt": "I'm sorry.",
+   "en": "I'm sorry."
+  },
+  {
+   "t": 49.89100000000326,
+   "kind": "partial",
+   "pt": "I'm sorry.",
+   "en": "I'm sorry."
+  },
+  {
+   "t": 50.04700000002049,
+   "kind": "partial",
+   "pt": "It is.",
+   "en": "It is."
+  },
+  {
+   "t": 50.04700000002049,
+   "kind": "partial",
+   "pt": "It is.",
+   "en": "It is."
+  },
+  {
+   "t": 50.20400000002701,
+   "kind": "partial",
+   "pt": "I'm sorry, I'm sorry.",
+   "en": "I'm sorry, I'm sorry."
+  },
+  {
+   "t": 50.20400000002701,
+   "kind": "partial",
+   "pt": "I'm sorry, I'm sorry.",
+   "en": "I'm sorry, I'm sorry."
+  },
+  {
+   "t": 50.36000000004424,
+   "kind": "partial",
+   "pt": "What is going?",
+   "en": "What is going?"
+  },
+  {
+   "t": 50.36000000004424,
+   "kind": "partial",
+   "pt": "What is going?",
+   "en": "What is going?"
+  },
+  {
+   "t": 50.5,
+   "kind": "partial",
+   "pt": "It is going.",
+   "en": "It is going."
+  },
+  {
+   "t": 50.5,
+   "kind": "partial",
+   "pt": "It is going.",
+   "en": "It is going."
+  },
+  {
+   "t": 50.65700000000652,
+   "kind": "partial",
+   "pt": "It is going to",
+   "en": "It is going to"
+  },
+  {
+   "t": 50.65700000000652,
+   "kind": "partial",
+   "pt": "It is going to",
+   "en": "It is going to"
+  },
+  {
+   "t": 50.81300000002375,
+   "kind": "partial",
+   "pt": "Okay.",
+   "en": "Okay."
+  },
+  {
+   "t": 50.81300000002375,
+   "kind": "partial",
+   "pt": "Okay.",
+   "en": "Okay."
+  },
+  {
+   "t": 50.96900000004098,
+   "kind": "partial",
+   "pt": "Matites going to occur.",
+   "en": "Matites going to occur."
+  },
+  {
+   "t": 50.96900000004098,
+   "kind": "partial",
+   "pt": "Matites going to occur.",
+   "en": "Matites going to occur."
+  },
+  {
+   "t": 51.48500000004424,
+   "kind": "partial",
+   "pt": "Okay.",
+   "en": "Okay."
+  },
+  {
+   "t": 51.48500000004424,
+   "kind": "partial",
+   "pt": "Okay.",
+   "en": "Okay."
+  },
+  {
+   "t": 51.64100000000326,
+   "kind": "partial",
+   "pt": "Matitis going to costo s.",
+   "en": "Matitis going to costo s."
+  },
+  {
+   "t": 51.64100000000326,
+   "kind": "partial",
+   "pt": "Matitis going to costo s.",
+   "en": "Matitis going to costo s."
+  },
+  {
+   "t": 51.79700000002049,
+   "kind": "partial",
+   "pt": "Matitis going to cost USD.",
+   "en": "Matitis going to cost USD."
+  },
+  {
+   "t": 51.79700000002049,
+   "kind": "partial",
+   "pt": "Matitis going to cost USD.",
+   "en": "Matitis going to cost USD."
+  },
+  {
+   "t": 51.96900000004098,
+   "kind": "partial",
+   "pt": "Matitis going to cost us this.",
+   "en": "Matitis going to cost us this."
+  },
+  {
+   "t": 51.96900000004098,
+   "kind": "partial",
+   "pt": "Matitis going to cost us this.",
+   "en": "Matitis going to cost us this."
+  },
+  {
+   "t": 52.14100000000326,
+   "kind": "partial",
+   "pt": "Matitis going to cost us this.",
+   "en": "Matitis going to cost us this."
+  },
+  {
+   "t": 52.14100000000326,
+   "kind": "partial",
+   "pt": "Matitis going to cost us this.",
+   "en": "Matitis going to cost us this."
+  },
+  {
+   "t": 52.31300000002375,
+   "kind": "partial",
+   "pt": "Matitis going to cost S. Distinguished.",
+   "en": "Matitis going to cost S. Distinguished."
+  },
+  {
+   "t": 52.31300000002375,
+   "kind": "partial",
+   "pt": "Matitis going to cost S. Distinguished.",
+   "en": "Matitis going to cost S. Distinguished."
+  },
+  {
+   "t": 52.46900000004098,
+   "kind": "partial",
+   "pt": "Matitis going to cost us this time.",
+   "en": "Matitis going to cost us this time."
+  },
+  {
+   "t": 52.46900000004098,
+   "kind": "partial",
+   "pt": "Matitis going to cost us this time.",
+   "en": "Matitis going to cost us this time."
+  },
+  {
+   "t": 52.64100000000326,
+   "kind": "partial",
+   "pt": "Matitis going to cost us this time.",
+   "en": "Matitis going to cost us this time."
+  },
+  {
+   "t": 52.64100000000326,
+   "kind": "partial",
+   "pt": "Matitis going to cost us this time.",
+   "en": "Matitis going to cost us this time."
+  },
+  {
+   "t": 52.81300000002375,
+   "kind": "partial",
+   "pt": "Matitis going to cost us this time.",
+   "en": "Matitis going to cost us this time."
+  },
+  {
+   "t": 52.81300000002375,
+   "kind": "partial",
+   "pt": "Matitis going to cost us this time.",
+   "en": "Matitis going to cost us this time."
+  },
+  {
+   "t": 52.98500000004424,
+   "kind": "partial",
+   "pt": "Matites going to cost us this time, ora.",
+   "en": "Matites going to cost us this time, ora."
+  },
+  {
+   "t": 52.98500000004424,
+   "kind": "partial",
+   "pt": "Matites going to cost us this time, ora.",
+   "en": "Matites going to cost us this time, ora."
+  },
+  {
+   "t": 53.14100000000326,
+   "kind": "partial",
+   "pt": "Matites going to cost us this time, alright.",
+   "en": "Matites going to cost us this time, alright."
+  },
+  {
+   "t": 53.14100000000326,
+   "kind": "partial",
+   "pt": "Matites going to cost us this time, alright.",
+   "en": "Matites going to cost us this time, alright."
+  },
+  {
+   "t": 53.32900000002701,
+   "kind": "partial",
+   "pt": "It is going to cost us this time, all right.",
+   "en": "It is going to cost us this time, all right."
+  },
+  {
+   "t": 53.32900000002701,
+   "kind": "partial",
+   "pt": "It is going to cost us this time, all right.",
+   "en": "It is going to cost us this time, all right."
+  },
+  {
+   "t": 53.5,
+   "kind": "partial",
+   "pt": "It is going to cost us this time, alright.",
+   "en": "It is going to cost us this time, alright."
+  },
+  {
+   "t": 53.5,
+   "kind": "partial",
+   "pt": "It is going to cost us this time, alright.",
+   "en": "It is going to cost us this time, alright."
+  },
+  {
+   "t": 53.67200000002049,
+   "kind": "final",
+   "pt": "It is going to cost us this time, alright.",
+   "en": "It is going to cost us this time, alright."
+  },
+  {
+   "t": 55.95400000002701,
+   "kind": "cancel",
+   "pt": "",
+   "en": ""
+  },
+  {
+   "t": 56.57900000002701,
+   "kind": "partial",
+   "pt": "So,",
+   "en": "So,"
+  },
+  {
+   "t": 56.57900000002701,
+   "kind": "partial",
+   "pt": "So,",
+   "en": "So,"
+  },
+  {
+   "t": 56.75,
+   "kind": "partial",
+   "pt": "That's",
+   "en": "That's"
+  },
+  {
+   "t": 56.75,
+   "kind": "partial",
+   "pt": "That's",
+   "en": "That's"
+  },
+  {
+   "t": 56.89100000000326,
+   "kind": "partial",
+   "pt": "That's what",
+   "en": "That's what"
+  },
+  {
+   "t": 56.89100000000326,
+   "kind": "partial",
+   "pt": "That's what",
+   "en": "That's what"
+  },
+  {
+   "t": 57.04700000002049,
+   "kind": "partial",
+   "pt": "That's all.",
+   "en": "That's all."
+  },
+  {
+   "t": 57.04700000002049,
+   "kind": "partial",
+   "pt": "That's all.",
+   "en": "That's all."
+  },
+  {
+   "t": 57.20400000002701,
+   "kind": "partial",
+   "pt": "That's all you.",
+   "en": "That's all you."
+  },
+  {
+   "t": 57.20400000002701,
+   "kind": "partial",
+   "pt": "That's all you.",
+   "en": "That's all you."
+  },
+  {
+   "t": 57.36000000004424,
+   "kind": "partial",
+   "pt": "That's all you are.",
+   "en": "That's all you are."
+  },
+  {
+   "t": 57.36000000004424,
+   "kind": "partial",
+   "pt": "That's all you are.",
+   "en": "That's all you are."
+  },
+  {
+   "t": 57.51600000000326,
+   "kind": "partial",
+   "pt": "That's all you want.",
+   "en": "That's all you want."
+  },
+  {
+   "t": 57.51600000000326,
+   "kind": "partial",
+   "pt": "That's all you want.",
+   "en": "That's all you want."
+  },
+  {
+   "t": 57.67200000002049,
+   "kind": "partial",
+   "pt": "That's all you are not.",
+   "en": "That's all you are not."
+  },
+  {
+   "t": 57.67200000002049,
+   "kind": "partial",
+   "pt": "That's all you are not.",
+   "en": "That's all you are not."
+  },
+  {
+   "t": 57.84400000004098,
+   "kind": "partial",
+   "pt": "That's all you want to do.",
+   "en": "That's all you want to do."
+  },
+  {
+   "t": 57.84400000004098,
+   "kind": "partial",
+   "pt": "That's all you want to do.",
+   "en": "That's all you want to do."
+  },
+  {
+   "t": 58.0,
+   "kind": "partial",
+   "pt": "That's all you are not to do.",
+   "en": "That's all you are not to do."
+  },
+  {
+   "t": 58.0,
+   "kind": "partial",
+   "pt": "That's all you are not to do.",
+   "en": "That's all you are not to do."
+  },
+  {
+   "t": 58.15700000000652,
+   "kind": "partial",
+   "pt": "That's all you are not to do.",
+   "en": "That's all you are not to do."
+  },
+  {
+   "t": 58.15700000000652,
+   "kind": "partial",
+   "pt": "That's all you are not to do.",
+   "en": "That's all you are not to do."
+  },
+  {
+   "t": 58.32900000002701,
+   "kind": "partial",
+   "pt": "That's all you want to do here.",
+   "en": "That's all you want to do here."
+  },
+  {
+   "t": 58.32900000002701,
+   "kind": "partial",
+   "pt": "That's all you want to do here.",
+   "en": "That's all you want to do here."
+  },
+  {
+   "t": 58.48500000004424,
+   "kind": "partial",
+   "pt": "That's all you want to do here.",
+   "en": "That's all you want to do here."
+  },
+  {
+   "t": 58.48500000004424,
+   "kind": "partial",
+   "pt": "That's all you want to do here.",
+   "en": "That's all you want to do here."
+  },
+  {
+   "t": 58.64100000000326,
+   "kind": "partial",
+   "pt": "That's all you want to do here.",
+   "en": "That's all you want to do here."
+  },
+  {
+   "t": 58.64100000000326,
+   "kind": "partial",
+   "pt": "That's all you want to do here.",
+   "en": "That's all you want to do here."
+  },
+  {
+   "t": 58.81300000002375,
+   "kind": "partial",
+   "pt": "That's all you want to do here.",
+   "en": "That's all you want to do here."
+  },
+  {
+   "t": 58.81300000002375,
+   "kind": "partial",
+   "pt": "That's all you want to do here.",
+   "en": "That's all you want to do here."
+  },
+  {
+   "t": 58.96900000004098,
+   "kind": "final",
+   "pt": "That's all you want to do here.",
+   "en": "That's all you want to do here."
+  }
+ ]
+}

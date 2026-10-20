@@ -1,0 +1,7 @@
+﻿Teste de latencia do Legendai
+Toca 8 frases em ingles (vozes do Windows) em tempo real no pipeline e mede quando as legendas aparecem.
+
+Medir a versao atual:
+  ..\.venv\Scripts\python.exe harness.py ..\legendas.py novo.json
+Comparar com a medicao anterior:
+  ..\.venv\Scripts\python.exe analyze.py antes.json novo.json

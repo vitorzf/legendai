@@ -1,0 +1,1030 @@
+{
+"eventos": [
+{
+"t": 2.124283699982334,
+"kind": "partial",
+"pt": "HE",
+"en": "HE"
+},
+{
+"t": 2.124283699982334,
+"kind": "final",
+"pt": "HE",
+"en": "HE"
+},
+{
+"t": 2.4318538000574335,
+"kind": "partial",
+"pt": "A",
+"en": "A"
+},
+{
+"t": 2.8260439999983644,
+"kind": "partial",
+"pt": "ADIOU",
+"en": "ADIOU"
+},
+{
+"t": 3.1238202000036837,
+"kind": "partial",
+"pt": "ADIOU COMME IT",
+"en": "ADIOU COMME IT"
+},
+{
+"t": 3.427917300001718,
+"kind": "partial",
+"pt": "ADIOU COMME IT O",
+"en": "ADIOU COMME IT O"
+},
+{
+"t": 3.7319223999977114,
+"kind": "partial",
+"pt": "ADIOU COMME IT O THE",
+"en": "ADIOU COMME IT O THE"
+},
+{
+"t": 3.7319223999977114,
+"kind": "final",
+"pt": "ADIOU COMME IT O THE",
+"en": "ADIOU COMME IT O THE"
+},
+{
+"t": 4.029753100010566,
+"kind": "partial",
+"pt": "BOUCHY",
+"en": "BOUCHY"
+},
+{
+"t": 4.425039900036063,
+"kind": "partial",
+"pt": "BOUCHY TO",
+"en": "BOUCHY TO"
+},
+{
+"t": 4.723969699977897,
+"kind": "partial",
+"pt": "BOUCHY TO NIGHT",
+"en": "BOUCHY TO NIGHT"
+},
+{
+"t": 4.723969699977897,
+"kind": "final",
+"pt": "BOUCHY TO NIGHT",
+"en": "BOUCHY TO NIGHT"
+},
+{
+"t": 6.324076099973172,
+"kind": "partial",
+"pt": "YOU",
+"en": "YOU"
+},
+{
+"t": 6.324076099973172,
+"kind": "final",
+"pt": "YOU",
+"en": "YOU"
+},
+{
+"t": 6.628590900008566,
+"kind": "partial",
+"pt": "DON'T DE",
+"en": "DON'T DE"
+},
+{
+"t": 6.929811999993399,
+"kind": "partial",
+"pt": "DON'T DENO",
+"en": "DON'T DENO"
+},
+{
+"t": 7.226416299981065,
+"kind": "final",
+"pt": "DON'T DENO",
+"en": "DON'T DENO"
+},
+{
+"t": 7.624699500005226,
+"kind": "partial",
+"pt": "IS",
+"en": "IS"
+},
+{
+"t": 7.624699500005226,
+"kind": "final",
+"pt": "IS",
+"en": "IS"
+},
+{
+"t": 7.923758800001815,
+"kind": "partial",
+"pt": "TOO HE",
+"en": "TOO HE"
+},
+{
+"t": 8.23345560003072,
+"kind": "partial",
+"pt": "TOO HEAVY",
+"en": "TOO HEAVY"
+},
+{
+"t": 8.526907799998298,
+"kind": "partial",
+"pt": "TOO HEAVY LODG",
+"en": "TOO HEAVY LODG"
+},
+{
+"t": 8.826711199956481,
+"kind": "partial",
+"pt": "TOO HEAVY LODG OFF YOUR",
+"en": "TOO HEAVY LODG OFF YOUR"
+},
+{
+"t": 9.224309700005687,
+"kind": "final",
+"pt": "TOO HEAVY LODG OFF YOUR",
+"en": "TOO HEAVY LODG OFF YOUR"
+},
+{
+"t": 9.52534419996664,
+"kind": "partial",
+"pt": "TAIL",
+"en": "TAIL"
+},
+{
+"t": 9.824701199959964,
+"kind": "partial",
+"pt": "TAIL FINISH",
+"en": "TAIL FINISH"
+},
+{
+"t": 10.128155800013337,
+"kind": "partial",
+"pt": "TAIL FINISH BEFORE",
+"en": "TAIL FINISH BEFORE"
+},
+{
+"t": 10.422648999991361,
+"kind": "final",
+"pt": "TAIL FINISH BEFORE",
+"en": "TAIL FINISH BEFORE"
+},
+{
+"t": 10.82604040002916,
+"kind": "partial",
+"pt": "TO MOR",
+"en": "TO MOR"
+},
+{
+"t": 11.127991799986921,
+"kind": "partial",
+"pt": "TO MORROW",
+"en": "TO MORROW"
+},
+{
+"t": 11.42621929999441,
+"kind": "partial",
+"pt": "TO MORROW MORNING",
+"en": "TO MORROW MORNING"
+},
+{
+"t": 11.42621929999441,
+"kind": "final",
+"pt": "TO MORROW MORNING",
+"en": "TO MORROW MORNING"
+},
+{
+"t": 13.023654900025576,
+"kind": "partial",
+"pt": "LO",
+"en": "LO"
+},
+{
+"t": 13.329141500010156,
+"kind": "partial",
+"pt": "LOKI",
+"en": "LOKI"
+},
+{
+"t": 13.623305499984417,
+"kind": "final",
+"pt": "LOKI",
+"en": "LOKI"
+},
+{
+"t": 14.027375600009691,
+"kind": "partial",
+"pt": "HE TALK",
+"en": "HE TALK"
+},
+{
+"t": 14.328844400017989,
+"kind": "partial",
+"pt": "HE TALKED",
+"en": "HE TALKED"
+},
+{
+"t": 14.328844400017989,
+"kind": "final",
+"pt": "HE TALKED",
+"en": "HE TALKED"
+},
+{
+"t": 14.631770100002177,
+"kind": "partial",
+"pt": "WHILE YOU ARE",
+"en": "WHILE YOU ARE"
+},
+{
+"t": 14.92842960000271,
+"kind": "partial",
+"pt": "WHILE YOU ARE BRO",
+"en": "WHILE YOU ARE BRO"
+},
+{
+"t": 15.225098800018895,
+"kind": "partial",
+"pt": "WHILE YOU ARE BROTHER",
+"en": "WHILE YOU ARE BROTHER"
+},
+{
+"t": 15.225098800018895,
+"kind": "final",
+"pt": "WHILE YOU ARE BROTHER",
+"en": "WHILE YOU ARE BROTHER"
+},
+{
+"t": 15.627191600005608,
+"kind": "partial",
+"pt": "LY YES",
+"en": "LY YES"
+},
+{
+"t": 15.925485299993307,
+"kind": "partial",
+"pt": "LY YESTERDA",
+"en": "LY YESTERDA"
+},
+{
+"t": 16.225834600033703,
+"kind": "partial",
+"pt": "LY YESTERDAY ANG",
+"en": "LY YESTERDAY ANG"
+},
+{
+"t": 16.52497670002049,
+"kind": "partial",
+"pt": "LY YESTERDAY ANGEL",
+"en": "LY YESTERDAY ANGEL"
+},
+{
+"t": 16.8256922999979,
+"kind": "partial",
+"pt": "LY YESTERDAY ANGEL HAS SAID",
+"en": "LY YESTERDAY ANGEL HAS SAID"
+},
+{
+"t": 17.22844650001498,
+"kind": "partial",
+"pt": "LY YESTERDAY ANGEL HAS SAIDED",
+"en": "LY YESTERDAY ANGEL HAS SAIDED"
+},
+{
+"t": 17.525013000005856,
+"kind": "partial",
+"pt": "LY YESTERDAY ANGEL HAS SAIDED THAT",
+"en": "LY YESTERDAY ANGEL HAS SAIDED THAT"
+},
+{
+"t": 17.525013000005856,
+"kind": "final",
+"pt": "LY YESTERDAY ANGEL HAS SAIDED THAT",
+"en": "LY YESTERDAY ANGEL HAS SAIDED THAT"
+},
+{
+"t": 17.826466200011783,
+"kind": "partial",
+"pt": "THE GO",
+"en": "THE GO"
+},
+{
+"t": 18.125067100010348,
+"kind": "partial",
+"pt": "THE GOD IS",
+"en": "THE GOD IS"
+},
+{
+"t": 18.427300900022964,
+"kind": "partial",
+"pt": "THE GOD IS STILL",
+"en": "THE GOD IS STILL"
+},
+{
+"t": 18.427300900022964,
+"kind": "final",
+"pt": "THE GOD IS STILL",
+"en": "THE GOD IS STILL"
+},
+{
+"t": 18.825565800024197,
+"kind": "partial",
+"pt": "BROK",
+"en": "BROK"
+},
+{
+"t": 19.120906200050378,
+"kind": "partial",
+"pt": "BROKING",
+"en": "BROKING"
+},
+{
+"t": 19.120906200050378,
+"kind": "final",
+"pt": "BROKING",
+"en": "BROKING"
+},
+{
+"t": 19.427621800021733,
+"kind": "partial",
+"pt": "IN YOU KNOW",
+"en": "IN YOU KNOW"
+},
+{
+"t": 19.728380000032484,
+"kind": "partial",
+"pt": "IN YOU KNOW BUT",
+"en": "IN YOU KNOW BUT"
+},
+{
+"t": 20.024685699958354,
+"kind": "partial",
+"pt": "IN YOU KNOW BUT YOU KNOWS",
+"en": "IN YOU KNOW BUT YOU KNOWS"
+},
+{
+"t": 20.42756199997384,
+"kind": "partial",
+"pt": "IN YOU KNOW BUT YOU KNOWS WHEN",
+"en": "IN YOU KNOW BUT YOU KNOWS WHEN"
+},
+{
+"t": 20.724026300001423,
+"kind": "partial",
+"pt": "IN YOU KNOW BUT YOU KNOWS WHEN IT",
+"en": "IN YOU KNOW BUT YOU KNOWS WHEN IT"
+},
+{
+"t": 20.724026300001423,
+"kind": "final",
+"pt": "IN YOU KNOW BUT YOU KNOWS WHEN IT",
+"en": "IN YOU KNOW BUT YOU KNOWS WHEN IT"
+},
+{
+"t": 21.02563349995762,
+"kind": "partial",
+"pt": "WILL BE",
+"en": "WILL BE"
+},
+{
+"t": 21.32453819999937,
+"kind": "partial",
+"pt": "WILL BE FI",
+"en": "WILL BE FI"
+},
+{
+"t": 21.63016259998549,
+"kind": "partial",
+"pt": "WILL BE FIXED",
+"en": "WILL BE FIXED"
+},
+{
+"t": 22.028112500032876,
+"kind": "partial",
+"pt": "WILL BE FIXED SO",
+"en": "WILL BE FIXED SO"
+},
+{
+"t": 22.028112500032876,
+"kind": "final",
+"pt": "WILL BE FIXED SO",
+"en": "WILL BE FIXED SO"
+},
+{
+"t": 22.32826350001851,
+"kind": "partial",
+"pt": "YOU'LL",
+"en": "YOU'LL"
+},
+{
+"t": 22.62949699998135,
+"kind": "partial",
+"pt": "YOU'LL PROB",
+"en": "YOU'LL PROB"
+},
+{
+"t": 22.9236525000073,
+"kind": "partial",
+"pt": "YOU'LL PROBABLY",
+"en": "YOU'LL PROBABLY"
+},
+{
+"t": 23.226205600006505,
+"kind": "partial",
+"pt": "YOU'LL PROBABLY HAVE",
+"en": "YOU'LL PROBABLY HAVE"
+},
+{
+"t": 23.628762799978723,
+"kind": "partial",
+"pt": "YOU'LL PROBABLY HAVE TO",
+"en": "YOU'LL PROBABLY HAVE TO"
+},
+{
+"t": 23.935386500007006,
+"kind": "partial",
+"pt": "YOU'LL PROBABLY HAVE TO TAKE",
+"en": "YOU'LL PROBABLY HAVE TO TAKE"
+},
+{
+"t": 24.231736200035083,
+"kind": "partial",
+"pt": "YOU'LL PROBABLY HAVE TO TAKE THE",
+"en": "YOU'LL PROBABLY HAVE TO TAKE THE"
+},
+{
+"t": 24.527105199988,
+"kind": "partial",
+"pt": "YOU'LL PROBABLY HAVE TO TAKE THE BULLS",
+"en": "YOU'LL PROBABLY HAVE TO TAKE THE BULLS"
+},
+{
+"t": 24.833425899979193,
+"kind": "partial",
+"pt": "YOU'LL PROBABLY HAVE TO TAKE THE BULLS AGAIN",
+"en": "YOU'LL PROBABLY HAVE TO TAKE THE BULLS AGAIN"
+},
+{
+"t": 24.833425899979193,
+"kind": "final",
+"pt": "YOU'LL PROBABLY HAVE TO TAKE THE BULLS AGAIN",
+"en": "YOU'LL PROBABLY HAVE TO TAKE THE BULLS AGAIN"
+},
+{
+"t": 25.22481329999864,
+"kind": "partial",
+"pt": "NEX",
+"en": "NEX"
+},
+{
+"t": 25.52631799998926,
+"kind": "partial",
+"pt": "NEXT A",
+"en": "NEXT A"
+},
+{
+"t": 25.82793570002541,
+"kind": "partial",
+"pt": "NEXT A WEEK",
+"en": "NEXT A WEEK"
+},
+{
+"t": 26.131343600014226,
+"kind": "final",
+"pt": "NEXT A WEEK",
+"en": "NEXT A WEEK"
+},
+{
+"t": 27.723163700010627,
+"kind": "partial",
+"pt": "FI",
+"en": "FI"
+},
+{
+"t": 28.028792100027204,
+"kind": "partial",
+"pt": "FINAL",
+"en": "FINAL"
+},
+{
+"t": 28.432030400005168,
+"kind": "final",
+"pt": "FINAL",
+"en": "FINAL"
+},
+{
+"t": 29.027427799999714,
+"kind": "partial",
+"pt": "LID",
+"en": "LID"
+},
+{
+"t": 29.332841000007466,
+"kind": "partial",
+"pt": "LIDZJO",
+"en": "LIDZJO"
+},
+{
+"t": 29.628399399947376,
+"kind": "final",
+"pt": "LIDZJO",
+"en": "LIDZJO"
+},
+{
+"t": 30.925397599965798,
+"kind": "partial",
+"pt": "WE HAVE",
+"en": "WE HAVE"
+},
+{
+"t": 31.237671400001272,
+"kind": "partial",
+"pt": "WE HAVE GID",
+"en": "WE HAVE GID"
+},
+{
+"t": 31.631011599989144,
+"kind": "partial",
+"pt": "WE HAVE GID YOU",
+"en": "WE HAVE GID YOU"
+},
+{
+"t": 31.926278299978,
+"kind": "partial",
+"pt": "WE HAVE GID YOU PUT",
+"en": "WE HAVE GID YOU PUT"
+},
+{
+"t": 32.22638419996947,
+"kind": "partial",
+"pt": "WE HAVE GID YOU PUT THE",
+"en": "WE HAVE GID YOU PUT THE"
+},
+{
+"t": 32.530137399968226,
+"kind": "partial",
+"pt": "WE HAVE GID YOU PUT THE CASE",
+"en": "WE HAVE GID YOU PUT THE CASE"
+},
+{
+"t": 32.82942849998362,
+"kind": "final",
+"pt": "WE HAVE GID YOU PUT THE CASE",
+"en": "WE HAVE GID YOU PUT THE CASE"
+},
+{
+"t": 33.821092000009955,
+"kind": "partial",
+"pt": "THERE",
+"en": "THERE"
+},
+{
+"t": 34.128370400017594,
+"kind": "partial",
+"pt": "THERE YOU",
+"en": "THERE YOU"
+},
+{
+"t": 34.128370400017594,
+"kind": "final",
+"pt": "THERE YOU",
+"en": "THERE YOU"
+},
+{
+"t": 34.42613830001792,
+"kind": "partial",
+"pt": "WRITE",
+"en": "WRITE"
+},
+{
+"t": 34.82685859997291,
+"kind": "partial",
+"pt": "WRITE HID",
+"en": "WRITE HID"
+},
+{
+"t": 35.12551159996074,
+"kind": "partial",
+"pt": "WRITE HID ON THE",
+"en": "WRITE HID ON THE"
+},
+{
+"t": 35.42761689998442,
+"kind": "partial",
+"pt": "WRITE HID ON THE TABLE",
+"en": "WRITE HID ON THE TABLE"
+},
+{
+"t": 35.72966729999753,
+"kind": "partial",
+"pt": "WRITE HID ON THE TABLE YOU",
+"en": "WRITE HID ON THE TABLE YOU"
+},
+{
+"t": 36.030005700013135,
+"kind": "partial",
+"pt": "WRITE HID ON THE TABLE YOU A MI",
+"en": "WRITE HID ON THE TABLE YOU A MI"
+},
+{
+"t": 36.431692299991845,
+"kind": "partial",
+"pt": "WRITE HID ON THE TABLE YOU A MINUTE A",
+"en": "WRITE HID ON THE TABLE YOU A MINUTE A"
+},
+{
+"t": 36.72651930000866,
+"kind": "partial",
+"pt": "WRITE HID ON THE TABLE YOU A MINUTE AGOES",
+"en": "WRITE HID ON THE TABLE YOU A MINUTE AGOES"
+},
+{
+"t": 37.027830599981826,
+"kind": "partial",
+"pt": "WRITE HID ON THE TABLE YOU A MINUTE AGOES TO",
+"en": "WRITE HID ON THE TABLE YOU A MINUTE AGOES TO"
+},
+{
+"t": 37.32416280005127,
+"kind": "final",
+"pt": "WRITE HID ON THE TABLE YOU A MINUTE AGOES TO",
+"en": "WRITE HID ON THE TABLE YOU A MINUTE AGOES TO"
+},
+{
+"t": 38.92340929995989,
+"kind": "partial",
+"pt": "YOU",
+"en": "YOU"
+},
+{
+"t": 38.92340929995989,
+"kind": "final",
+"pt": "YOU",
+"en": "YOU"
+},
+{
+"t": 39.22582849998726,
+"kind": "partial",
+"pt": "NEVA",
+"en": "NEVA"
+},
+{
+"t": 39.62679909998551,
+"kind": "partial",
+"pt": "NEVA LISTEN",
+"en": "NEVA LISTEN"
+},
+{
+"t": 39.926626600010785,
+"kind": "partial",
+"pt": "NEVA LISTENED THE",
+"en": "NEVA LISTENED THE"
+},
+{
+"t": 40.22550980000524,
+"kind": "partial",
+"pt": "NEVA LISTENED THE ARMY",
+"en": "NEVA LISTENED THE ARMY"
+},
+{
+"t": 40.52913569996599,
+"kind": "final",
+"pt": "NEVA LISTENED THE ARMY",
+"en": "NEVA LISTENED THE ARMY"
+},
+{
+"t": 40.82338440000312,
+"kind": "partial",
+"pt": "THAT",
+"en": "THAT"
+},
+{
+"t": 40.82338440000312,
+"kind": "final",
+"pt": "THAT",
+"en": "THAT"
+},
+{
+"t": 41.22785500005121,
+"kind": "partial",
+"pt": "IS",
+"en": "IS"
+},
+{
+"t": 41.22785500005121,
+"kind": "final",
+"pt": "IS",
+"en": "IS"
+},
+{
+"t": 41.52686669997638,
+"kind": "partial",
+"pt": "THE PROB",
+"en": "THE PROB"
+},
+{
+"t": 41.82505850000307,
+"kind": "partial",
+"pt": "THE PROBABLY",
+"en": "THE PROBABLY"
+},
+{
+"t": 42.125878400017974,
+"kind": "final",
+"pt": "THE PROBABLY",
+"en": "THE PROBABLY"
+},
+{
+"t": 43.42108780003618,
+"kind": "partial",
+"pt": "O K",
+"en": "O K"
+},
+{
+"t": 43.72806460001739,
+"kind": "final",
+"pt": "O K",
+"en": "O K"
+},
+{
+"t": 44.025272400001995,
+"kind": "partial",
+"pt": "A O",
+"en": "A O"
+},
+{
+"t": 44.42496179996524,
+"kind": "partial",
+"pt": "A O KA",
+"en": "A O KA"
+},
+{
+"t": 44.725646599999166,
+"kind": "partial",
+"pt": "A O KA I",
+"en": "A O KA I"
+},
+{
+"t": 45.026283300016075,
+"kind": "partial",
+"pt": "A O KA I MAY",
+"en": "A O KA I MAY"
+},
+{
+"t": 45.33079599997727,
+"kind": "partial",
+"pt": "A O KA I MAY SOR",
+"en": "A O KA I MAY SOR"
+},
+{
+"t": 45.62661810000427,
+"kind": "partial",
+"pt": "A O KA I MAY SORRY",
+"en": "A O KA I MAY SORRY"
+},
+{
+"t": 45.62661810000427,
+"kind": "final",
+"pt": "A O KA I MAY SORRY",
+"en": "A O KA I MAY SORRY"
+},
+{
+"t": 46.02878149994649,
+"kind": "partial",
+"pt": "YOU",
+"en": "YOU"
+},
+{
+"t": 46.32650189999258,
+"kind": "partial",
+"pt": "YOU WILL CALL",
+"en": "YOU WILL CALL"
+},
+{
+"t": 46.63277280001203,
+"kind": "partial",
+"pt": "YOU WILL CALL THEM",
+"en": "YOU WILL CALL THEM"
+},
+{
+"t": 46.924478600011206,
+"kind": "partial",
+"pt": "YOU WILL CALL THEM A CAN",
+"en": "YOU WILL CALL THEM A CAN"
+},
+{
+"t": 47.22898539998569,
+"kind": "partial",
+"pt": "YOU WILL CALL THEM A CANCHI",
+"en": "YOU WILL CALL THEM A CANCHI"
+},
+{
+"t": 47.62815629995894,
+"kind": "partial",
+"pt": "YOU WILL CALL THEM A CANCHIE PAST",
+"en": "YOU WILL CALL THEM A CANCHIE PAST"
+},
+{
+"t": 47.92665379998507,
+"kind": "partial",
+"pt": "YOU WILL CALL THEM A CANCHIE PAST FI",
+"en": "YOU WILL CALL THEM A CANCHIE PAST FI"
+},
+{
+"t": 48.225611500022936,
+"kind": "partial",
+"pt": "YOU WILL CALL THEM A CANCHIE PAST FIT O MAR",
+"en": "YOU WILL CALL THEM A CANCHIE PAST FIT O MAR"
+},
+{
+"t": 48.52475799998501,
+"kind": "partial",
+"pt": "YOU WILL CALL THEM A CANCHIE PAST FIT O MARTYRING",
+"en": "YOU WILL CALL THEM A CANCHIE PAST FIT O MARTYRING"
+},
+{
+"t": 48.82517219999572,
+"kind": "final",
+"pt": "YOU WILL CALL THEM A CANCHIE PAST FIT O MARTYRING",
+"en": "YOU WILL CALL THEM A CANCHIE PAST FIT O MARTYRING"
+},
+{
+"t": 49.22518220001366,
+"kind": "partial",
+"pt": "ESQUE",
+"en": "ESQUE"
+},
+{
+"t": 49.527491400018334,
+"kind": "partial",
+"pt": "ESQUE HIM",
+"en": "ESQUE HIM"
+},
+{
+"t": 49.82239220001502,
+"kind": "partial",
+"pt": "ESQUE HIM HOW",
+"en": "ESQUE HIM HOW"
+},
+{
+"t": 50.129430599999615,
+"kind": "partial",
+"pt": "ESQUE HIM HOW MUCH",
+"en": "ESQUE HIM HOW MUCH"
+},
+{
+"t": 50.129430599999615,
+"kind": "final",
+"pt": "ESQUE HIM HOW MUCH",
+"en": "ESQUE HIM HOW MUCH"
+},
+{
+"t": 50.42406189998146,
+"kind": "partial",
+"pt": "IT IS",
+"en": "IT IS"
+},
+{
+"t": 50.82760209998814,
+"kind": "partial",
+"pt": "IT IS GOING",
+"en": "IT IS GOING"
+},
+{
+"t": 51.124706700001845,
+"kind": "partial",
+"pt": "IT IS GOING TO DO",
+"en": "IT IS GOING TO DO"
+},
+{
+"t": 51.43025539999362,
+"kind": "partial",
+"pt": "IT IS GOING TO DO A",
+"en": "IT IS GOING TO DO A"
+},
+{
+"t": 51.72693089999957,
+"kind": "partial",
+"pt": "IT IS GOING TO DO A COST",
+"en": "IT IS GOING TO DO A COST"
+},
+{
+"t": 51.72693089999957,
+"kind": "final",
+"pt": "IT IS GOING TO DO A COST",
+"en": "IT IS GOING TO DO A COST"
+},
+{
+"t": 52.02690469997469,
+"kind": "partial",
+"pt": "TO US",
+"en": "TO US"
+},
+{
+"t": 52.425273800012654,
+"kind": "partial",
+"pt": "TO US AT THIS",
+"en": "TO US AT THIS"
+},
+{
+"t": 52.7313107999973,
+"kind": "partial",
+"pt": "TO US AT THIS JIM",
+"en": "TO US AT THIS JIM"
+},
+{
+"t": 53.02740319998702,
+"kind": "partial",
+"pt": "TO US AT THIS JIMMY",
+"en": "TO US AT THIS JIMMY"
+},
+{
+"t": 53.32651160000823,
+"kind": "partial",
+"pt": "TO US AT THIS JIMMY ALL",
+"en": "TO US AT THIS JIMMY ALL"
+},
+{
+"t": 53.63062310005771,
+"kind": "partial",
+"pt": "TO US AT THIS JIMMY ALL RIGHT",
+"en": "TO US AT THIS JIMMY ALL RIGHT"
+},
+{
+"t": 54.03548469999805,
+"kind": "final",
+"pt": "TO US AT THIS JIMMY ALL RIGHT",
+"en": "TO US AT THIS JIMMY ALL RIGHT"
+},
+{
+"t": 55.62402869996149,
+"kind": "partial",
+"pt": "THANK",
+"en": "THANK"
+},
+{
+"t": 55.932478799985255,
+"kind": "partial",
+"pt": "THANK YOU",
+"en": "THANK YOU"
+},
+{
+"t": 56.225083100015766,
+"kind": "final",
+"pt": "THANK YOU",
+"en": "THANK YOU"
+},
+{
+"t": 57.22447610005038,
+"kind": "partial",
+"pt": "THAT'S",
+"en": "THAT'S"
+},
+{
+"t": 57.525733300019056,
+"kind": "partial",
+"pt": "THAT'S ALL",
+"en": "THAT'S ALL"
+},
+{
+"t": 57.83158860001713,
+"kind": "partial",
+"pt": "THAT'S ALL YOU WANT",
+"en": "THAT'S ALL YOU WANT"
+},
+{
+"t": 58.126967599987985,
+"kind": "partial",
+"pt": "THAT'S ALL YOU WANT TO",
+"en": "THAT'S ALL YOU WANT TO"
+},
+{
+"t": 58.42861209999537,
+"kind": "partial",
+"pt": "THAT'S ALL YOU WANT TO DO",
+"en": "THAT'S ALL YOU WANT TO DO"
+},
+{
+"t": 58.42861209999537,
+"kind": "final",
+"pt": "THAT'S ALL YOU WANT TO DO",
+"en": "THAT'S ALL YOU WANT TO DO"
+},
+{
+"t": 58.8269871999626,
+"kind": "partial",
+"pt": "OUR HE",
+"en": "OUR HE"
+},
+{
+"t": 59.128879899997266,
+"kind": "partial",
+"pt": "OUR HEARS",
+"en": "OUR HEARS"
+},
+{
+"t": 59.42668720000656,
+"kind": "final",
+"pt": "OUR HEARS",
+"en": "OUR HEARS"
+}
+]
+}
